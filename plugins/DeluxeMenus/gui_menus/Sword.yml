@@ -1,0 +1,41 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&e&lBeast'
+open_command:
+  - Speed
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+  - '[message] &eSelecting &eArea'
+size: 27
+# as always, only cool people can open this menu :)
+open_requirement:
+  requirements:
+    permission: 
+      type: "!has permission"
+      permission: deluxemenus.open.bypass*
+      deny_commands:
+        - ""
+items:
+  'Speed1':
+    material: blaze_powder
+    slot: 0
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&aCentre'
+    lore:
+      - '&7Sword area'
+    view_requirement:
+      requirements: 
+        kit_perm:
+          type: 
+          permission: 
+    left_click_commands:
+      - '[console] clear %player_name%'
+      - '[console] kit give Sword %player_name%'
+      - '[console] tp %player_name% 206 10 6'
+      - '[close]'
+  'filler_item':
+    material: 
+    slots:
+    display_name: ' '

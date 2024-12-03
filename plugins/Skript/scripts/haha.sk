@@ -1,0 +1,5 @@
+on food bar change:
+  cancel event
+on death of player:
+  if attacker is a player:
+    broadcast "&c☠ %victim% &7was defeated by &a🗡 %attacker% &7(&c%attacker's health * 2%❤&7)"

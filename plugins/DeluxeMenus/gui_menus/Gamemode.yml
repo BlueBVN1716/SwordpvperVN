@@ -1,0 +1,40 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&e&lGamemodes'
+open_command:
+  - Games
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+  - '[message] &eSelecting &eGamemodes'
+size: 27
+# as always, only cool people can open this menu :)
+open_requirement:
+  requirements:
+    permission:
+      type: 
+      permission: deluxemenus.openrequirement.bypass.*
+      deny_commands:
+        - ""
+items:
+  'Sword':
+    material: Diamond_sword
+    slot: 0
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&aSword'
+    lore:
+      - '&7Sword area'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: "!has permission" 
+          permission: 
+    left_click_commands:
+      - '[player] clear %player_name%'
+      - '[player] tp 206 10 6 %player_name%'
+      - '[close]'
+  'filler_item':
+    material: 
+    slots:
+    display_name: ' '

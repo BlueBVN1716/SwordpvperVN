@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNTk3NjM1ODc0NCwKICAicHJvZmlsZUlkIiA6ICJmNGFhNmFmYWQ5MGM0ZGQyOTdiMmVkNDUzYjhjOTlmZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLeWxheiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNjhiZTg4ODBjYzkzY2JhYWYwYjEzNWQ1OTRmYjg5MmIyMTA1MTU2OTMxNTVjMjc3NTUwM2NlMzc3YWJiZjJmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZkNTUzYjM5MzU4YTI0ZWRmZTNiOGE5YTkzOWZhNWZhNGZhYTRkOWE5YzNkNmFmOGVhZmIzNzdmYTA1YzJiYiIKICAgIH0KICB9Cn0=",
+    "signature": "k6eYoG8QOnunc+LK5VP2i8mA6cumxhyNj02slxOvMED0Jq0mzIVcvJu4HI7NXxnwMAqdaa1fiCYKQJVTXBjEZi8sEBavFGzzCR1kVYrIuazvKFWywa6nP0FHfeq7kw5TfbrkvZ/FM/3MuFH8sbTuA4SG4DVrR+sK5fpB8dX4vComfiDZJFZmY5a+h0sVkoqbd5kdxE1AVOgC0xw4mC2Yy9b6ypKY4NP0vKFGuelG7bha9rqEw+2iDJj5vKL5wwnx6ZDHR4NUKknId/3/q7WS0SbRmVv5D71PEIm183Pqhj75d/BP0SDX9/2RGvBYI/n8a6v1fhcuQq0pOT59WRn5QX50/kDyi7vr+/MnW/UfuphgEwcegPzD1KjNlWtF3mmvAIfNzGBY8pde7h73EBVRKfilT13bibT/cRqJ10RzZzb3FXsHP41orFm3kuVbnUjF/q2ZZtEC6q48jAdXl8hj5uNOIlt+djcGkrb772xIwvibv6c61+Pem73grXFxa5K0dLXSiLRuKVTtvV3DiTUE4XNKvl/wSvtnwTfyikDmV3/J6WrjUg+6zGW+/09LGcXpWSjUn4x+FEKoZR7Mr64apg7/XeU3NormRn0HG9Qy3cpIywIQu8cyEmi7/XeKmY90Sz1Lob2HGXj3B8wjFLUad1FicmjeU+n53GJku0G17ls=",
+    "skinName": "Kylaz",
+    "location": {
+      "world": "Sword",
+      "x": -2.5,
+      "y": 295.0,
+      "z": -5.5,
+      "yaw": -25.825928,
+      "pitch": 9.711629
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&b&lSword"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "dm open Sword %player_name%",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNTgwMjY1MDMwMywKICAicHJvZmlsZUlkIiA6ICI5MmNmMTYxZDVlNTY0Yzk1OTRmOWMwNzY0NjgxYjBmYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZ3NIYWxvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I4MDkzZTQxZjNkNDQ1MDliY2E3MTM0YTRjZTVhOGVmODQ1MWQ5ZTUwZjcyNDY4YmZhYWIwMWI5MzdmMGQ5MTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+    "signature": "Y09z8cTxpJT8ATFrOSy08MdzxPkZOFrIbTTY05y/OC71RCXeqwsS4FvmJsHTOZQaDHAdMUCIFub4HQTjJA5rKtvZ6RM99FY54ZeahPWZPkjnXesrTG7UzffQc+vd+2BPXW1ynE+gPf8jZP2hOEPx/rRol9ehow8jD+gl52SvaB9LhwcC9Fo/6WaCBVUEEO30e7RHXO9l9NYciY7qwyT+vA9TjqSY3rUkY2pVngjaxBr+fsmefQFHWINvAGodMZXEoUhVKg4qfvoc0TkkETvbU2DOHWqRfz3n/1jpyXN5ds6jKsPvoZ/I0z/NTbiGpH5GIQwWKgRF/A9ED06Y7aUgsiR3zj9t99KU3JF8i0YI6HGloBHMIH7hGSvMHLqSINRnaVu25jkxdpNuRy8nv+8dwHLiN2y3ZxCDQFJ9kxJcwwmUTJTwxph3gWKnWRDfcgY2W1xTvU01DZEjx8KfDwHo3D3SqciSmw3Xwhtztd3t0bH3cH5z9g4g8/esSt1EFTiiJLtcNDH0KcoQn1t1px34ARsSbbdRyJpdvGOXy7E93W89Ywt/gKCx1i6fHAGCgzszeAC2sLZSgp+X5GQExRJ4XkDw4alWPD7hY+FAYajCwLjAlUYHQ8N7FjoiB+b4RAh4Sa7ZsP59CHqNCI1oLHdzAy4Jrtj8SwQW7nre1wHxtjo=",
+    "skinName": "TgsHalo",
+    "location": {
+      "world": "Sword",
+      "x": 3.5,
+      "y": 295.0,
+      "z": -5.5,
+      "yaw": 23.074463,
+      "pitch": 8.83906
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&b&lSpeed"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "dm open Sword %player_name%",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 10,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNjA1NDg2NTA4MSwKICAicHJvZmlsZUlkIiA6ICIzNmU5NTc1N2Y4MzA0MmMxYjE0M2RiM2RhODMwNDc3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJWZXhhYXkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNDM4OTUzYTc4MmRhNzY5NDgwYjBhNDkxMjVhOTJlMjU5MjA3NzAwY2I4ZTNlMWFhYzM4ZTQ3MWUyMDMwOCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUzY2FjOGI3NzlmZTQxMzgzZTY3NWVlMmI4NjA3MWE3MTY1OGYyMTgwZjU2ZmJjZThhYTMxNWVhNzBlMmVkNiIKICAgIH0KICB9Cn0=",
+    "signature": "quWny7pFLYJvz8875ZRafVfcXNuqdtY3++2dD0+e6tv9fREgzBbZypdRsT0NtPP+H2bDkbGRIc5s2e8F8ehvxr/3wof5eErM2whaKC/SbXq893opBKMdi+vStAzMRnTW752zzmXmB1PfTPJBkL3VJQ0ljVlkbSz4mga21tcFkZX6NudwUfXIQdY+AXIBZUZ9xhyPwy6zas2H/D/Ij/OBUGBKXzkcTy1nF6GRqwsS7QiOFup1Bo8aQzz9zbCECXjlatZAOVrP6VN2dQFYf5ylVQIXNHmpVhxQAKsx6jzuTM+e+i4i8IZdH/nYUTw0tdYkjtD7bQgUvULaFpRT/kkTIp35pxXTvQ7xiYJfaMzbpVtwrBwtEC8PPC/mwEA6Zl5zN4Lw/1dc1WPkWnsKNebJ/iBe0BKPloLKeSJxJrHaFtMgUExH/90Q+JU7YkhfZXTfVVEgqzp58+Pv7Vv6h0k42weBDSkXaBE6r/0/yFtCl/eVdwV+tIZ29VaCcnidvM7nia4J64awlYnkjPv5imdS1vSIKty9nbcvws5u35cW7g4T/E1FX2218+m82RwhEyjwrD8PtkSfyanZlnQF9U3GVRgwTzApqSQBqW0v2ZD//OuF/GRRCk5/nalJf9YdT8TrFvfd6zX8cOBWpDPfV5pwILGpD+YUBUFB+j6H0xSc+4s=",
+    "skinName": "Vexaay",
+    "location": {
+      "world": "world",
+      "x": 8.5,
+      "y": -59.0,
+      "z": 14.5,
+      "yaw": 179.86774,
+      "pitch": 8.613457
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "Beast"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "dm open Sword %player_name%",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  }
+]

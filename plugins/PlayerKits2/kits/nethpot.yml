@@ -1,0 +1,437 @@
+cooldown: 3600
+one_time: false
+auto_armor: true
+permission_required: false
+save_original_items: true
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:sharpness: 5
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: TOTEM_OF_UNDYING
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+        custom-effects: []
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+        custom-effects: []
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '15':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+        custom-effects: []
+  '16':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+        custom-effects: []
+  '17':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+        custom-effects: []
+  '18':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+        custom-effects: []
+  '19':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: TOTEM_OF_UNDYING
+  '20':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '21':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '22':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '23':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '24':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+        custom-effects: []
+  '25':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+        custom-effects: []
+  '26':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+        custom-effects: []
+  '27':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+        custom-effects: []
+  '28':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: TOTEM_OF_UNDYING
+  '29':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '30':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '31':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '32':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '33':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '34':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+        custom-effects: []
+  '35':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+        custom-effects: []
+  '36':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+        custom-effects: []
+  '37':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:mending: 1
+          minecraft:protection: 4
+          minecraft:unbreaking: 3
+  '38':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:mending: 1
+          minecraft:protection: 4
+          minecraft:unbreaking: 3
+  '39':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:mending: 1
+          minecraft:protection: 4
+          minecraft:unbreaking: 3
+  '40':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:mending: 1
+          minecraft:protection: 4
+          minecraft:unbreaking: 3
+  '41':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GOLDEN_APPLE
+      amount: 64
+    offhand: true
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false
+display:
+  default:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&fThis is a description of the kit.'
+    - ''
+    - '&7Edit it on the &c%kit_name%.yml &7file'
+    - '&7or using &c/kit edit %kit_name%'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
