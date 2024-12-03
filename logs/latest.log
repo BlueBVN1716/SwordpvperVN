@@ -524,3 +524,64 @@ Skipping item: filler_item
 [14:36:59] [Server thread/WARN]: Kitty190 moved too quickly! -5.065969825318058,0.0,-10.094646970215269
 [14:37:01] [Server thread/INFO]: Spanse issued server command: /gamemode survival
 [14:37:01] [Server thread/INFO]: [Spanse: Set own game mode to Survival Mode]
+[14:37:10] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode adventure
+[14:37:10] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Adventure Mode]
+[14:37:21] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
+[14:37:21] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
+[14:37:23] [Server thread/INFO]: BlueBVN1716 issued server command: /tp Spanse
+[14:37:23] [Server thread/INFO]: [BlueBVN1716: Teleported BlueBVN1716 to Spanse]
+[14:37:23] [Server thread/WARN]: BlueBVN1716 moved too quickly! 184.96577501222473,-3.0,-28.332233892288354
+[14:37:28] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
+[14:37:28] [Server thread/INFO]: BlueBVN1716 was killed
+[14:37:28] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
+[14:37:31] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode survival
+[14:37:31] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Survival Mode]
+[14:37:37] [Server thread/INFO]: BlueBVN1716 issued server command: /gamerule keepInventory false
+[14:37:37] [Server thread/INFO]: [BlueBVN1716: Gamerule keepInventory is now set to: false]
+[14:37:38] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:37:38] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:37:41] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
+[14:37:41] [Server thread/INFO]: BlueBVN1716 was killed
+[14:37:41] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
+[14:37:43] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:37:43] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:37:52] [Server thread/INFO]: BlueBVN1716 issued server command: /rg flags
+[14:37:52] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (5.85❤)
+[14:37:52] [Server thread/INFO]: Kitty190 was slain by Spanse
+[14:37:54] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:37:54] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:37:56] [Async Chat Thread - #7/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 9-4
+[14:38:28] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (11.58❤)
+[14:38:28] [Server thread/INFO]: Spanse was slain by Kitty190
+[14:38:29] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:38:29] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:38:38] [Async Chat Thread - #7/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 9-5
+[14:38:56] [Async Chat Thread - #7/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: rejoin di
+[14:38:57] [Server thread/INFO]: Spanse lost connection: Disconnected
+[14:38:57] [Server thread/INFO]: Spanse left the game
+[14:39:00] [User Authenticator #5/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
+[14:39:00] [Server thread/INFO]: Spanse joined the game
+[14:39:00] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1%0]:50162] logged in with entity id 62 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[14:39:05] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
+[14:39:05] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
+[14:39:07] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode survival
+[14:39:07] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Survival Mode]
+[14:39:09] [Server thread/INFO]: No items were found on player Spanse
+[14:39:09] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:39:09] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:39:49] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.54❤)
+[14:39:49] [Server thread/INFO]: Kitty190 was slain by Spanse
+[14:39:52] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:39:52] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:39:55] [Async Chat Thread - #7/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 10-5
+[14:39:58] [Server thread/INFO]: BlueBVN1716 issued server command: /gamerule showDeathMessages false
+[14:39:58] [Server thread/INFO]: [BlueBVN1716: Gamerule showDeathMessages is now set to: false]
+[14:40:00] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
+[14:40:00] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
+[14:40:03] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:40:03] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:40:33] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (0.46❤)
+[14:40:35] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:40:35] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:40:35] [Server thread/WARN]: Kitty190 moved too quickly! 214.435708686759,-3.0,-0.7783929795789137
+[14:40:45] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
