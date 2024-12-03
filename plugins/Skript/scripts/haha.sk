@@ -3,3 +3,10 @@ on food bar change:
 on death of player:
   if attacker is a player:
     broadcast "&c☠ %victim% &7was defeated by &a🗡 %attacker% &7(&c%attacker's health * 2%❤&7)"
+on respawn:
+  give player diamond named "&aQuick Respawn"
+on rightclick with diamond:
+  if name of player's tool is "&aQuick Respawn":
+    clear player's inventory
+    console command "/tp %player% 206 10 6"
+    console command "/kit give Sword %player%"
