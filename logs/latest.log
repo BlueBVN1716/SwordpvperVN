@@ -585,3 +585,336 @@ Skipping item: filler_item
 [14:40:35] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
 [14:40:35] [Server thread/WARN]: Kitty190 moved too quickly! 214.435708686759,-3.0,-0.7783929795789137
 [14:40:45] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
+[14:41:03] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (4.47❤)
+[14:41:05] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:41:05] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:41:25] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
+[14:41:25] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
+[14:41:28] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:41:28] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:41:32] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
+[14:41:32] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
+[14:41:45] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (3.39❤)
+[14:41:47] [Async Chat Thread - #9/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: e
+[14:41:52] [Async Chat Thread - #9/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: skib
+[14:41:54] [Async Chat Thread - #9/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: de invite
+[14:42:23] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:42:23] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:42:49] [Server thread/INFO]: Spanse lost connection: Disconnected
+[14:42:49] [Server thread/INFO]: Spanse left the game
+[14:42:52] [User Authenticator #6/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
+[14:42:52] [Server thread/INFO]: Spanse joined the game
+[14:42:52] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1%0]:42484] logged in with entity id 63 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[14:43:00] [Server thread/INFO]: No items were found on player Spanse
+[14:43:00] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:43:00] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:43:01] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:43:01] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:43:44] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 BlueBVN1716 (7.81❤)
+[14:43:45] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:43:45] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:43:46] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: omg
+[14:44:01] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: more 3 round
+[14:44:03] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: before i ogne
+[14:44:06] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: after;
+[14:44:07] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (13.54❤)
+[14:44:08] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:44:08] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:44:08] [Server thread/WARN]: BlueBVN1716 moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
+[14:44:11] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: gone
+[14:44:14] [Server thread/INFO]: Spanse issued server command: /lp user Kitty190 parent set ht1
+[14:44:14] [luckperms-command-executor/INFO]: [LP] LOG > (Spanse) [U] (kitty190)
+[14:44:14] [luckperms-command-executor/INFO]: [LP] LOG > parent set ht1
+[14:44:14] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Kitty190's group (ht1) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:44:14] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Kitty190's group (ht1) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[14:44:17] [Async Chat Thread - #11/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: sure
+[14:44:36] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
+[14:44:36] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
+[14:44:39] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (9.85❤)
+[14:44:39] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:44:39] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:45:22] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (0.87❤)
+[14:45:28] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:45:28] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:46:10] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.59❤)
+[14:46:11] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:46:11] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:46:39] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (3.3❤)
+[14:46:40] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:46:40] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:47:13] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (4.12❤)
+[14:47:13] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:47:13] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:47:51] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.52❤)
+[14:47:52] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:47:52] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:48:25] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (7.71❤)
+[14:48:26] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:48:26] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:48:26] [Server thread/WARN]: Spanse moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
+[14:48:57] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.01❤)
+[14:48:57] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:48:57] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:49:36] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (2.03❤)
+[14:49:38] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:49:38] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:49:42] [Server thread/INFO]: Spanse lost connection: Disconnected
+[14:49:42] [Server thread/INFO]: Spanse left the game
+[14:49:43] [User Authenticator #7/INFO]: UUID of player GreenyFives is 8ed3c69a-a1a2-4e15-b1ad-b114e20639ab
+[14:49:43] [Server thread/INFO]: GreenyFives joined the game
+[14:49:43] [Server thread/INFO]: GreenyFives[/[0:0:0:0:0:0:0:1%0]:44736] logged in with entity id 64 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[14:49:45] [User Authenticator #7/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
+[14:49:45] [Server thread/INFO]: Spanse joined the game
+[14:49:45] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1%0]:60518] logged in with entity id 65 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[14:49:48] [Async Chat Thread - #13/INFO]: [Not Secure] HT1 Kitty190: center
+[14:49:51] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode adventure
+[14:49:51] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Adventure Mode]
+[14:49:52] [Server thread/INFO]: No items were found on player Spanse
+[14:49:52] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:49:52] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:50:04] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
+[14:50:08] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: ht1 yo ass
+[14:50:09] [Server thread/INFO]: BlueBVN1716 issued server command: /rg flags
+[14:50:13] [Server thread/INFO]: BlueBVN1716 issued server command: /rg flags -w "world" spawn
+[14:50:15] [Server thread/INFO]: GreenyFives issued server command: /k1
+[14:50:15] [Server thread/INFO]: BlueBVN1716 issued server command: /rg flag -w "world" -h 1 spawn pvp DENY
+[14:50:18] [Server thread/INFO]: GreenyFives issued server command: /spawn
+[14:50:24] [Netty Epoll Server IO #1/WARN]: Failed to validate message acknowledgements from GreenyFives
+[14:50:24] [Server thread/INFO]: GreenyFives lost connection: Chat message validation failure
+[14:50:24] [Server thread/INFO]: GreenyFives left the game
+[14:50:26] [Netty Epoll Server IO #0/WARN]: Failed to validate message acknowledgements from BlueBVN1716
+[14:50:26] [Server thread/INFO]: BlueBVN1716 lost connection: Chat message validation failure
+[14:50:26] [Server thread/INFO]: BlueBVN1716 left the game
+[14:50:27] [User Authenticator #7/INFO]: UUID of player GreenyFives is 8ed3c69a-a1a2-4e15-b1ad-b114e20639ab
+[14:50:27] [Server thread/INFO]: GreenyFives joined the game
+[14:50:27] [Server thread/INFO]: GreenyFives[/[0:0:0:0:0:0:0:1%0]:53740] logged in with entity id 66 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[14:50:29] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (5.71❤)
+[14:50:29] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:50:29] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:50:31] [Server thread/INFO]: GreenyFives issued server command: /spawn
+[14:50:33] [Server thread/INFO]: GreenyFives issued server command: /spawn:spawn
+[14:50:34] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[14:50:34] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: WTF
+[14:50:40] [Server thread/INFO]: No items were found on player GreenyFives
+[14:50:40] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[14:50:40] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[14:50:40] [Server thread/INFO]: GreenyFives has made the advancement [Cover Me with Diamonds]
+[14:50:41] [User Authenticator #7/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
+[14:50:41] [Server thread/INFO]: BlueBVN1716 joined the game
+[14:50:41] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:58800] logged in with entity id 67 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[14:50:58] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: BlueBVN1716
+[14:51:02] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (3.68❤)
+[14:51:03] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:51:03] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:51:08] [Async Chat Thread - #13/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: j
+[14:51:13] [Server thread/INFO]: No items were found on player BlueBVN1716
+[14:51:13] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:51:13] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:51:24] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (8.12❤)
+[14:51:25] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:51:25] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:51:25] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gg
+[14:51:30] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: BlueBVN1716 gimme best mobile fr
+[14:51:46] [User Authenticator #8/INFO]: Disconnecting fanvietbua (/[0:0:0:0:0:0:0:1%0]:39026): Failed to verify username!
+[14:51:46] [User Authenticator #8/ERROR]: Username 'fanvietbua' tried to join with an invalid session
+[14:51:46] [Server thread/INFO]: fanvietbua (/[0:0:0:0:0:0:0:1%0]:39026) lost connection: Failed to verify username!
+[14:51:56] [User Authenticator #8/INFO]: Disconnecting fanvietbua (/[0:0:0:0:0:0:0:1%0]:48438): Failed to verify username!
+[14:51:56] [User Authenticator #8/ERROR]: Username 'fanvietbua' tried to join with an invalid session
+[14:51:56] [Server thread/INFO]: fanvietbua (/[0:0:0:0:0:0:0:1%0]:48438) lost connection: Failed to verify username!
+[14:52:05] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (11.02❤)
+[14:52:06] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:52:06] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:52:09] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Kitty190 (0.74❤)
+[14:52:11] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: fuck u bithc
+[14:52:12] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[14:52:12] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[14:52:24] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 GreenyFives (20❤)
+[14:52:30] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:52:30] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:52:46] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (2.93❤)
+[14:52:47] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:52:47] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:52:53] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 GreenyFives (5.95❤)
+[14:52:54] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:52:54] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:52:56] [Async Chat Thread - #13/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 10s
+[14:53:05] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 GreenyFives (20❤)
+[14:53:19] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:53:19] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:53:36] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (6.67❤)
+[14:53:37] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:53:37] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:53:39] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: 360
+[14:53:54] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (8.15❤)
+[14:53:55] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:53:55] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:54:09] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (6.65❤)
+[14:54:10] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:54:10] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:54:28] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (4.78❤)
+[14:54:29] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[14:54:29] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[14:54:33] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (9.24❤)
+[14:54:34] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:54:34] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:55:07] [Async Chat Thread - #15/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: dep qua
+[14:55:20] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (9.43❤)
+[14:55:21] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:55:21] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:55:27] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (8.11❤)
+[14:55:28] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:55:28] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:55:53] [Server thread/INFO]: Spanse issued server command: /kill Kitty190
+[14:55:53] [Server thread/INFO]: [Spanse: Killed Kitty190]
+[14:56:11] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (1.77❤)
+[14:56:12] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[14:56:12] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[14:56:13] [Async Chat Thread - #17/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bruh
+[14:56:15] [Async Chat Thread - #17/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: 360
+[14:56:17] [Async Chat Thread - #17/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: cc
+[14:56:42] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: okay
+[14:56:45] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: sleep issue
+[14:56:46] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (9.87❤)
+[14:56:46] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:56:46] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:56:46] [Server thread/WARN]: Spanse moved too quickly! 213.66663599097066,-3.000000099999994,0.0457337142800151
+[14:56:47] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: gank issue
+[14:56:51] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: 360 !!
+[14:56:56] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: i should go to sleep
+[14:56:58] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: goodbye sir
+[14:57:10] [Server thread/INFO]: Kitty190 lost connection: Disconnected
+[14:57:10] [Server thread/INFO]: Kitty190 left the game
+[14:57:23] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (1.55❤)
+[14:57:24] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[14:57:24] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[14:57:25] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: XD
+[14:57:46] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (3.9❤)
+[14:57:47] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gg
+[14:57:47] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:57:47] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:57:48] [Server thread/WARN]: Spanse moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
+[14:57:53] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
+[14:57:53] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
+[14:58:25] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (2.45❤)
+[14:58:26] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[14:58:26] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[14:58:27] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: noo
+[14:58:30] [Async Chat Thread - #18/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bruhw
+[14:58:32] [Netty Epoll Server IO #1/WARN]: Failed to validate message acknowledgements from BlueBVN1716
+[14:58:32] [Server thread/INFO]: BlueBVN1716 lost connection: Chat message validation failure
+[14:58:32] [Server thread/INFO]: BlueBVN1716 left the game
+[14:58:36] [User Authenticator #9/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
+[14:58:36] [Server thread/INFO]: BlueBVN1716 joined the game
+[14:58:36] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:45874] logged in with entity id 68 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[14:58:47] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (10.77❤)
+[14:58:47] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:58:47] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:58:47] [Server thread/WARN]: Spanse moved too quickly! 214.28757644992658,-3.000000099999994,0.060991668585816616
+[14:58:51] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gib me some ranks!!
+[14:58:57] [Async Chat Thread - #18/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bro
+[14:59:01] [Async Chat Thread - #18/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: tomorrow
+[14:59:06] [Async Chat Thread - #18/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: it takes time
+[14:59:10] [Async Chat Thread - #17/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: TO MAKE A NEW RANK
+[14:59:51] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (1.47❤)
+[14:59:51] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[14:59:51] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[14:59:52] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: NOOO
+[15:00:11] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode adventure
+[15:00:11] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Adventure Mode]
+[15:00:32] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (0.99❤)
+[15:00:33] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[15:00:33] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[15:00:33] [Server thread/WARN]: Spanse moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
+[15:00:33] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: XD
+[15:00:35] [Async Chat Thread - #17/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: spanish
+[15:01:05] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (0.04❤)
+[15:01:06] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[15:01:06] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[15:01:37] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (5.66❤)
+[15:01:37] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[15:01:37] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[15:02:06] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (2.44❤)
+[15:02:06] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[15:02:06] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[15:02:26] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (1.71❤)
+[15:02:27] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[15:02:27] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[15:02:50] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (4.42❤)
+[15:02:51] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[15:02:51] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[15:02:55] [Server thread/INFO]: BlueBVN1716 lost connection: Disconnected
+[15:02:55] [Server thread/INFO]: BlueBVN1716 left the game
+[15:03:15] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (4.9❤)
+[15:03:15] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[15:03:15] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[15:03:45] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (2.82❤)
+[15:03:46] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[15:03:46] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[15:04:13] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (1.7❤)
+[15:04:14] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[15:04:14] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[15:04:20] [Async Chat Thread - #19/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: almost r
+[15:04:28] [Async Chat Thread - #19/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: tf
+[15:04:52] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (5.78❤)
+[15:04:52] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[15:04:52] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[15:05:23] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (6.18❤)
+[15:05:24] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[15:05:24] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[15:05:24] [Async Chat Thread - #19/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: XD
+[15:05:42] [User Authenticator #10/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
+[15:05:42] [Server thread/INFO]: BlueBVN1716 joined the game
+[15:05:42] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:39676] logged in with entity id 69 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[15:05:55] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (5.66❤)
+[15:05:56] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[15:05:56] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[15:05:56] [Async Chat Thread - #19/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gg
+[15:06:23] [Server thread/ERROR]: Failed to save level ./world_the_end
+java.nio.file.NoSuchFileException: ./world_the_end/level16463310442594882084.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1408) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1655) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1334) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:06:23] [DimensionDataIO - ./world_the_end/DIM1 - 0/ERROR]: Could not save data net.minecraft.world.entity.raid.Raids@1786bd46
+java.nio.file.NoSuchFileException: ./world_the_end/DIM1/data/raids_end.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at net.minecraft.world.level.saveddata.SavedData.lambda$save$0(SavedData.java:48) ~[purpur-1.21.jar:1.21-2284-4e55e26]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:06:24] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (6.24❤)
+[15:06:25] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[15:06:25] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[15:06:26] [Async Chat Thread - #19/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gg
+[15:06:54] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (8.13❤)
+[15:06:55] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[15:06:55] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[15:06:56] [Server thread/INFO]: BlueBVN1716 issued server command: /tab reload
+[15:06:56] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:06:56] [Server thread/INFO]: [TAB] Enabled in 30ms
+[15:07:25] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (5.46❤)
+[15:07:32] [Async Chat Thread - #21/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: not that shitty strat again!!
+[15:07:32] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[15:07:32] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[15:08:03] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (8.45❤)
+[15:08:06] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
+[15:08:06] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!

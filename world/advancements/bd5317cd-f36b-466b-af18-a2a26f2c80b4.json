@@ -1,15 +1,21 @@
 {
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-03 14:21:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_feather": "2024-12-03 14:21:45 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
+  "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "unlock_right_away": "2024-12-03 14:21:38 +0000"
+      "minecraft:plains": "2024-12-03 14:21:46 +0000"
     },
-    "done": true
+    "done": false
   },
   "minecraft:story/shiny_gear": {
     "criteria": {
@@ -22,12 +28,6 @@
       "killed_something": "2024-12-03 14:26:49 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2024-12-03 14:21:46 +0000"
-    },
-    "done": false
   },
   "DataVersion": 3953
 }

@@ -1,5 +1,0 @@
-minecraft
-    ├─ the_end
-    ├─ overworld
-    ├─ the_nether
-    └─ fhbl
