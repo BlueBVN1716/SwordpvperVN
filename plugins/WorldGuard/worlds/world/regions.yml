@@ -11,16 +11,16 @@
 #
 regions:
     ffa:
-        min: {x: 87, y: -11, z: -147}
-        max: {x: 326, y: 166, z: 150}
+        min: {x: -417, y: 26, z: -395}
+        max: {x: 329, y: 211, z: 311}
         members: {}
         flags: {leaf-decay: deny, pvp: allow}
         owners: {}
         type: cuboid
         priority: 0
     spawn:
-        min: {x: -14, y: -66, z: -13}
-        max: {x: 29, y: -41, z: 26}
+        min: {x: -228, y: 67, z: -22}
+        max: {x: -176, y: 131, z: 26}
         members: {}
         flags: {}
         owners: {}

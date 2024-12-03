@@ -69,11 +69,11 @@
     "skinName": "Vexaay",
     "location": {
       "world": "world",
-      "x": 8.5,
-      "y": -59.0,
-      "z": 14.5,
-      "yaw": 179.86774,
-      "pitch": 8.613457
+      "x": -184.5,
+      "y": 67.0,
+      "z": -2.5,
+      "yaw": 87.29605,
+      "pitch": 7.97661
     },
     "npcType": "PLAYER",
     "hologramLines": [

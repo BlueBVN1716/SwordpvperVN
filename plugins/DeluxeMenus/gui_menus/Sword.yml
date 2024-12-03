@@ -33,7 +33,7 @@ items:
     left_click_commands:
       - '[console] clear %player_name%'
       - '[console] kit give Sword %player_name%'
-      - '[console] tp %player_name% 206 10 6'
+      - '[console] tp %player_name% 0 64 0'
       - '[close]'
   'filler_item':
     material: 

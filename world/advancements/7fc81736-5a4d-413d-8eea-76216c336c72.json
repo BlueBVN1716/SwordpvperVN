@@ -1,33 +1,33 @@
 {
-  "minecraft:recipes/decorations/crafting_table": {
+  "minecraft:recipes/combat/arrow": {
     "criteria": {
-      "unlock_right_away": "2024-11-16 11:44:06 +0700"
+      "has_feather": "2024-12-03 14:25:10 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "minecraft:deep_lukewarm_ocean": "2024-11-16 11:45:06 +0700"
+      "unlock_right_away": "2024-12-03 14:24:42 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:story/shiny_gear": {
     "criteria": {
-      "diamond_helmet": "2024-11-16 11:45:13 +0700"
+      "diamond_helmet": "2024-12-03 14:25:03 +0000"
     },
     "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
-      "killed_something": "2024-11-16 11:47:03 +0700"
+      "killed_by_something": "2024-12-03 14:26:49 +0000"
     },
     "done": true
   },
-  "minecraft:nether/netherite_armor": {
+  "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "netherite_armor": "2024-11-16 22:40:38 +0700"
+      "minecraft:plains": "2024-12-03 14:24:43 +0000"
     },
-    "done": true
+    "done": false
   },
   "DataVersion": 3953
 }
