@@ -60,7 +60,7 @@ belowname-objective:
   fancy-display-default: NPC
   fancy-display-players: '&c%health%'
   number: '%health%'
-  text: '&c♥'
+  text: '&c❤'
 prevent-spectator-effect:
   enabled: false
 bossbar:

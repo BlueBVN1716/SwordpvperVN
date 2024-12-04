@@ -1,938 +1,297 @@
-[14:20:29] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
-[14:20:29] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) for Minecraft 1.21
-[14:20:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:20:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
-[14:20:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (21):
+[11:21:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[11:21:43] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) for Minecraft 1.21
+[11:21:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:21:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[11:21:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (21):
  - ChatFormatter (1.2.0), CleanPing (1.6.1), DRC (1.1), DeluxeMenus (1.14.0-Release), GrimAC (2.3.67), HealOnKill (1.2), LPC (3.6.0), LuckPerms (5.4.131), NoDurability (1.0), PlaceholderAPI (2.11.6), PlayerKits2 (1.12.4), ServersNPC (4.8), Skript (2.9.4), Spawn (1.0), StatsSB (4.1-Lite), TAB (4.1.7), Vault (1.7.3-b131), ViaBackwards (5.0.3), ViaVersion (5.0.3), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.11-beta1+a801a9d)
-[14:20:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:20:35] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[14:20:35] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[14:20:36] [ServerMain/INFO]: Loaded 1290 recipes
-[14:20:37] [ServerMain/INFO]: Loaded 1399 advancements
-[14:20:37] [Server thread/INFO]: Starting minecraft server version 1.21
-[14:20:37] [Server thread/INFO]: Loading properties
-[14:20:37] [Server thread/INFO]: This server is running Purpur version 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[14:20:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:20:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:20:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:20:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[14:20:39] [Server thread/INFO]: Default game type: SURVIVAL
-[14:20:39] [Server thread/INFO]: Generating keypair
-[14:20:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:20:39] [Server thread/INFO]: Using epoll channel type
-[14:20:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:20:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[14:20:40] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[14:20:48] [Server thread/WARN]: Legacy plugin Spawn v1.0 does not specify an api-version.
-[14:20:48] [Server thread/WARN]: Legacy plugin DRC v1.1 does not specify an api-version.
-[14:20:48] [Server thread/WARN]: Legacy plugin HealOnKill v1.2 does not specify an api-version.
-[14:20:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
-[14:20:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
-[14:20:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[14:20:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[14:20:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[14:20:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[14:20:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
-[14:20:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[14:20:52] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
-[14:20:53] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3cc82836]
-[14:20:53] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[14:20:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
-[14:20:53] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.11-beta1+a801a9d
-[14:20:53] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.8
-[14:20:53] [Server thread/INFO]: [ChatFormatter] Loading server plugin ChatFormatter v1.2.0
-[14:20:53] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.67
-[14:20:54] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
-[14:20:56] [Server thread/INFO]: [started] Loading server plugin NoDurability v1.0
-[14:20:56] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.7
-[14:20:56] [Server thread/INFO]: [CleanPing] Loading server plugin CleanPing v1.6.1
-[14:20:56] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v1.0
-[14:20:56] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.9.4
-[14:20:56] [Server thread/INFO]: [DRC] Loading server plugin DRC v1.1
-[14:20:56] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
-[14:20:56] [Server thread/INFO]: [HealOnKill] Loading server plugin HealOnKill v1.2
-[14:20:56] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.0-Release
-[14:20:56] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version!
-[14:20:56] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.12.4
-[14:20:56] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
-[14:20:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:20:56] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[14:20:56] [Server thread/INFO]:         __    
-[14:20:56] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
-[14:20:56] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
-[14:20:56] [Server thread/INFO]: 
-[14:20:56] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:20:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[14:20:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:20:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:20:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1902ms)
-[14:20:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[14:20:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[14:20:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[14:20:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[14:20:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
-[14:20:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:20:59] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[14:20:59] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[14:21:00] [Server thread/INFO]: [started] Enabling NoDurability v1.0
-[14:21:00] [Server thread/INFO]: [started] The NoDurability plugin was enabled.
-[14:21:00] [Server thread/INFO]: Preparing level "world"
-[14:21:01] [Server thread/INFO]: ---- Migration of old minecraft_fhbl folder required ----
-[14:21:01] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your minecraft_fhbl folder to a new location in order to operate correctly.
-[14:21:01] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[14:21:01] [Server thread/INFO]: Attempting to move world/dimensions/minecraft/fhbl to world_minecraft_fhbl/dimensions/minecraft/fhbl...
-[14:21:01] [Server thread/INFO]: Success! To restore minecraft_fhbl in the future, simply move world_minecraft_fhbl/dimensions/minecraft/fhbl to world/dimensions/minecraft/fhbl
-[14:21:01] [Server thread/INFO]: ---- Migration of old minecraft_fhbl folder complete ----
-[14:21:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:21:02] [Server thread/INFO]: Time elapsed: 903 ms
-[14:21:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:21:03] [Server thread/INFO]: Time elapsed: 325 ms
-[14:21:03] [Server thread/INFO]: Preparing start region for dimension minecraft:fhbl
-[14:21:03] [Server thread/INFO]: Time elapsed: 316 ms
-[14:21:03] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
-[14:21:03] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
-[14:21:03] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[14:21:03] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[14:21:03] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
-[14:21:03] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.11-beta1+a801a9d
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[14:21:04] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[14:21:04] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world_minecraft_fhbl) TNT ignition is PERMITTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world_minecraft_fhbl) Lighters are PERMITTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world_minecraft_fhbl) Lava fire is PERMITTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] (world_minecraft_fhbl) Fire spread is UNRESTRICTED.
-[14:21:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_minecraft_fhbl'
-[14:21:04] [Server thread/INFO]: [WorldGuard] Loading region data...
-[14:21:04] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.8
-[14:21:05] [Server thread/INFO]: [ChatFormatter] Enabling ChatFormatter v1.2.0
-[14:21:05] [Server thread/INFO]: [ChatFormatter] Plugin enabled in 592ms
-[14:21:05] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.67
-[14:21:05] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
-[14:21:05] [Server thread/INFO]: [GrimAC] Registering packets...
-[14:21:05] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
-[14:21:05] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
-[14:21:06] [Server thread/INFO]: [TAB] Enabling TAB v4.1.7
-[14:21:06] [Server thread/INFO]: [TAB] Loaded NMS hook in 95ms
-[14:21:06] [Server thread/INFO]: [TAB] Enabled in 647ms
-[14:21:06] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.6.1
-[14:21:06] [Server thread/INFO]: [CleanPing] 
+[11:21:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:21:50] [ServerMain/INFO]: Loaded 1290 recipes
+[11:21:50] [ServerMain/INFO]: Loaded 1399 advancements
+[11:21:50] [Server thread/INFO]: Starting minecraft server version 1.21
+[11:21:50] [Server thread/INFO]: Loading properties
+[11:21:50] [Server thread/INFO]: This server is running Purpur version 1.21-2284-ver/1.21@4e55e26 (2024-08-10T17:35:56Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[11:21:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:21:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:21:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:21:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[11:21:52] [Server thread/INFO]: Default game type: ADVENTURE
+[11:21:52] [Server thread/INFO]: Generating keypair
+[11:21:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:21:52] [Server thread/INFO]: Using default channel type
+[11:21:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:21:52] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[11:21:54] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:21:54] [Server thread/WARN]: java.lang.Exception
+[11:21:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.legacy.CraftLegacy.<clinit>(CraftLegacy.java:271)
+[11:21:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:378)
+[11:21:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121)
+[11:21:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35)
+[11:21:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116)
+[11:21:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38)
+[11:21:54] [Server thread/WARN]: 	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40)
+[11:21:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:560)
+[11:21:54] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326)
+[11:21:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230)
+[11:21:54] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333)
+[11:21:54] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[11:22:01] [Server thread/WARN]: Legacy plugin Spawn v1.0 does not specify an api-version.
+[11:22:01] [Server thread/WARN]: Legacy plugin DRC v1.1 does not specify an api-version.
+[11:22:01] [Server thread/WARN]: Legacy plugin HealOnKill v1.2 does not specify an api-version.
+[11:22:01] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[11:22:01] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[11:22:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[11:22:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[11:22:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[11:22:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[11:22:04] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[11:22:05] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[11:22:05] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[11:22:06] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2fd0cb7a]
+[11:22:06] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[11:22:06] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
+[11:22:06] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.11-beta1+a801a9d
+[11:22:06] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.8
+[11:22:06] [Server thread/INFO]: [ChatFormatter] Loading server plugin ChatFormatter v1.2.0
+[11:22:06] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.67
+[11:22:06] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[11:22:09] [Server thread/INFO]: [started] Loading server plugin NoDurability v1.0
+[11:22:09] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.7
+[11:22:09] [Server thread/INFO]: [CleanPing] Loading server plugin CleanPing v1.6.1
+[11:22:09] [Server thread/INFO]: [Spawn] Loading server plugin Spawn v1.0
+[11:22:09] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.9.4
+[11:22:09] [Server thread/INFO]: [DRC] Loading server plugin DRC v1.1
+[11:22:09] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
+[11:22:09] [Server thread/INFO]: [HealOnKill] Loading server plugin HealOnKill v1.2
+[11:22:09] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.0-Release
+[11:22:09] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[11:22:09] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.12.4
+[11:22:09] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
+[11:22:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:22:09] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[11:22:09] [Server thread/INFO]:         __    
+[11:22:09] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[11:22:09] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[11:22:09] [Server thread/INFO]: 
+[11:22:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:22:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:22:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:22:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:22:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1240ms)
+[11:22:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:22:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:22:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:22:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[11:22:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[11:22:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:22:11] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:22:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[11:22:12] [Server thread/INFO]: [started] Enabling NoDurability v1.0
+[11:22:12] [Server thread/INFO]: [started] The NoDurability plugin was enabled.
+[11:22:12] [Server thread/INFO]: Preparing level "world"
+[11:22:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:22:14] [Server thread/INFO]: Time elapsed: 445 ms
+[11:22:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:22:14] [Server thread/INFO]: Time elapsed: 88 ms
+[11:22:14] [Server thread/INFO]: Preparing start region for dimension minecraft:fhbl
+[11:22:14] [Server thread/INFO]: Time elapsed: 140 ms
+[11:22:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[11:22:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21 (767)
+[11:22:14] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[11:22:14] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:22:14] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
+[11:22:14] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.11-beta1+a801a9d
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world_minecraft_fhbl) TNT ignition is PERMITTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world_minecraft_fhbl) Lighters are PERMITTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world_minecraft_fhbl) Lava fire is PERMITTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] (world_minecraft_fhbl) Fire spread is UNRESTRICTED.
+[11:22:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_minecraft_fhbl'
+[11:22:15] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:22:15] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.8
+[11:22:15] [Server thread/INFO]: [ChatFormatter] Enabling ChatFormatter v1.2.0
+[11:22:16] [Server thread/INFO]: [ChatFormatter] Plugin enabled in 548ms
+[11:22:16] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.67
+[11:22:16] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[11:22:16] [Server thread/INFO]: [GrimAC] Registering packets...
+[11:22:16] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[11:22:16] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:22:16] [Server thread/INFO]: [TAB] Enabling TAB v4.1.7
+[11:22:16] [Server thread/INFO]: [TAB] Loaded NMS hook in 95ms
+[11:22:17] [Server thread/INFO]: [TAB] Enabled in 443ms
+[11:22:17] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.6.1
+[11:22:17] [Server thread/INFO]: [CleanPing] 
    ___ _                 ___ _           
   / __| |___ __ _ _ _   | _ (_)_ _  __ _ 
  | (__| / -_) _` | ' \  |  _/ | ' \/ _` |
   \___|_\___\__,_|_||_| |_| |_|_||_\__, |
                                    |___/ 
 
-[14:21:06] [Server thread/INFO]: [CleanPing] Server version: 1.21-R0.1-SNAPSHOT
-[14:21:06] [Server thread/INFO]: [CleanPing] Loading configuration...
-[14:21:07] [Server thread/INFO]: [CleanPing] Loading commands...
-[14:21:07] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
-[14:21:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cleanping [1.0]
-[14:21:07] [Server thread/INFO]: [CleanPing] PlaceholderAPI found, placeholders enabled.
-[14:21:07] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
-[14:21:07] [Server thread/INFO]: [Spawn] Enabling Spawn v1.0*
-[14:21:07] [Server thread/INFO]: [Skript] Enabling Skript v2.9.4
-[14:21:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.9.5 (you're currently running 2.9.4)
-[14:21:08] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar>https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar
-[14:21:19] [Server thread/INFO]: [Skript] Loaded 233074 aliases in 12192ms
-[14:21:21] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[14:21:21] [Server thread/INFO]: [DRC] Enabling DRC v1.1*
-[14:21:21] [Server thread/INFO]: [DRC] [DRC] enabled!
-[14:21:21] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
-[14:21:21] [Server thread/INFO]: [HealOnKill] Enabling HealOnKill v1.2*
-[14:21:21] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.0-Release
-[14:21:21] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: permission for path: open_requirement.requirements.permission
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Speed1.view_requirement.requirements.kit_perm
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Speed2.view_requirement.requirements.kit_perm
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Speed is not present!
+[11:22:17] [Server thread/INFO]: [CleanPing] Server version: 1.21-R0.1-SNAPSHOT
+[11:22:17] [Server thread/INFO]: [CleanPing] Loading configuration...
+[11:22:17] [Server thread/INFO]: [CleanPing] Loading commands...
+[11:22:17] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
+[11:22:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cleanping [1.0]
+[11:22:17] [Server thread/INFO]: [CleanPing] PlaceholderAPI found, placeholders enabled.
+[11:22:17] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
+[11:22:17] [Server thread/INFO]: [Spawn] Enabling Spawn v1.0*
+[11:22:17] [Server thread/INFO]: [Skript] Enabling Skript v2.9.4
+[11:22:18] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.9.5 (you're currently running 2.9.4)
+[11:22:18] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar>https://github.com/SkriptLang/Skript/releases/download/2.9.5/Skript-2.9.5.jar
+[11:22:29] [Server thread/INFO]: [Skript] Loaded 233074 aliases in 11082ms
+[11:22:30] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[11:22:30] [Server thread/INFO]: [DRC] Enabling DRC v1.1*
+[11:22:30] [Server thread/INFO]: [DRC] [DRC] enabled!
+[11:22:30] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[11:22:30] [Server thread/INFO]: [HealOnKill] Enabling HealOnKill v1.2*
+[11:22:30] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.0-Release
+[11:22:30] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[11:22:30] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: permission for path: open_requirement.requirements.permission
+[11:22:30] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Speed1.view_requirement.requirements.kit_perm
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Speed2.view_requirement.requirements.kit_perm
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Speed is not present!
 Skipping item: filler_item
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: permission for path: open_requirement.requirements.permission
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] Has Permission requirement at path: items.Sword.view_requirement.requirements.kit_perm does not contain a permission: entry
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Gamemode is not present!
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: permission for path: open_requirement.requirements.permission
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] Has Permission requirement at path: items.Sword.view_requirement.requirements.kit_perm does not contain a permission: entry
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Gamemode is not present!
 Skipping item: filler_item
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: permission for path: open_requirement.requirements.permission
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Neth.view_requirement.requirements.kit_perm
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Nethpot is not present!
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: permission for path: open_requirement.requirements.permission
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Neth.view_requirement.requirements.kit_perm
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Nethpot is not present!
 Skipping item: filler_item
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] command: Speed specified for menu: Sword already exists for another menu!
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] command: Speed specified for menu: Sword already exists for another menu!
 Skipping command: Speed in menu: Sword
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Speed1.view_requirement.requirements.kit_perm
-[14:21:21] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Sword is not present!
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Speed1.view_requirement.requirements.kit_perm
+[11:22:31] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Sword is not present!
 Skipping item: filler_item
-[14:21:21] [Server thread/INFO]: [DeluxeMenus] 7 GUI menus loaded!
-[14:21:21] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
-[14:21:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.0-Release]
-[14:21:21] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.12.4
-[14:21:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.12.4]
-[14:21:21] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.12.4
-[14:21:21] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
-[14:21:22] [Server thread/INFO]: There is a new version available. (1.13.1)
-[14:21:22] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/playerkits-2
-[14:21:22] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
-[14:21:22] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
-[14:21:22] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
-[14:21:22] [Server thread/INFO]: [spark] Starting background profiler...
-[14:21:23] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[14:21:23] [Server thread/INFO]: Done preparing level "world" (22.416s)
-[14:21:23] [Server thread/INFO]: Starting GS4 status listener
-[14:21:23] [Server thread/INFO]: Thread Query Listener started
-[14:21:23] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[14:21:23] [Server thread/INFO]: Running delayed init tasks
-[14:21:23] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[14:21:23] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] Checking for Updates ... 
-[14:21:23] [Server thread/INFO]: [Skript] Loading variables...
-[14:21:23] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
-[14:21:23] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] No new version available
-[14:21:23] [Server thread/INFO]: [Skript] Line 8: (haha.sk)
-[14:21:23] [Server thread/INFO]:     Can't understand this structure: on rightclick with feather
-[14:21:23] [Server thread/INFO]:     Line: on rightclick with feather
-[14:21:23] [Server thread/INFO]:  
-[14:21:23] [Server thread/INFO]: [Skript] Line 9: (haha.sk)
-[14:21:23] [Server thread/INFO]:     Can't understand this structure: l
-[14:21:23] [Server thread/INFO]:     Line: l:
-[14:21:23] [Server thread/INFO]:  
-[14:21:23] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 3 structures in 0.18 seconds
-[14:21:23] [Server thread/INFO]: [Skript] Finished loading.
-[14:21:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
-[14:21:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
-[14:21:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[14:21:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[14:21:23] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[14:21:23] [Server thread/INFO]: 4 placeholder hook(s) registered!
-[14:21:23] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.1.1, you're on: 5.0.3
-[14:21:23] [Server thread/INFO]: Done (55.090s)! For help, type "help"
-[14:21:24] [User Authenticator #0/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
-[14:21:26] [Server thread/ERROR]: Not a string
-[14:21:26] [Server thread/INFO]: BlueBVN1716 joined the game
-[14:21:27] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:56714] logged in with entity id 12 at ([world]8.465669339403503, -60.0, 8.602948052797716)
-[14:21:32] [Server thread/INFO]: BlueBVN1716 fell out of the world
-[14:21:35] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode creative
-[14:21:35] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Creative Mode]
-[14:21:38] [User Authenticator #0/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
-[14:21:38] [Server thread/INFO]: Spanse joined the game
-[14:21:38] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1%0]:59812] logged in with entity id 32 at ([world]8.465669339403503, -60.0, 8.602948052797716)
-[14:21:43] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bruh
-[14:21:43] [Server thread/INFO]: Spanse fell out of the world
-[14:21:48] [Server thread/INFO]: BlueBVN1716 issued server command: /tp Spanse BlueBVN1716
-[14:21:48] [Server thread/INFO]: [BlueBVN1716: Teleported Spanse to BlueBVN1716]
-[14:21:49] [Server thread/INFO]: Spanse fell from a high place
-[14:21:52] [Server thread/INFO]: Spanse issued server command: /gamemode creative
-[14:21:52] [Server thread/INFO]: [Spanse: Set own game mode to Creative Mode]
-[14:21:53] [Server thread/INFO]: BlueBVN1716 issued server command: /tp Spanse BlueBVN1716
-[14:21:53] [Server thread/INFO]: [BlueBVN1716: Teleported Spanse to BlueBVN1716]
-[14:22:00] [Server thread/INFO]: BlueBVN1716 issued server command: /gamerule randomTickSpeed 0
-[14:22:00] [Server thread/INFO]: [BlueBVN1716: Gamerule randomTickSpeed is now set to: 0]
-[14:22:08] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: chinh trong cai
-[14:22:09] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
-[14:22:09] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
-[14:22:11] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode creative
-[14:22:11] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Creative Mode]
-[14:22:13] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: deluxemenus
-[14:22:20] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 206 10 6 -> 0 64 0
-[14:22:34] [Server thread/INFO]: BlueBVN1716 issued server command: /deluxemenu
-[14:22:39] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: va ca skript cua quick respawn nua
-[14:22:43] [Async Chat Thread - #1/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: ok
-[14:23:05] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: ua
-[14:23:19] [Async Chat Thread - #1/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: j
-[14:23:22] [Server thread/INFO]: BlueBVN1716 issued server command: /setspawn
-[14:23:25] [Server thread/INFO]: BlueBVN1716 issued server command: /setspawn
-[14:23:28] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: cai spawn point cua hub dau
-[14:23:29] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: wtf
-[14:23:33] [Netty Epoll Server IO #3/WARN]: Failed to validate message acknowledgements from BlueBVN1716
-[14:23:33] [Server thread/INFO]: BlueBVN1716 lost connection: Chat message validation failure
-[14:23:33] [Server thread/INFO]: BlueBVN1716 left the game
-[14:23:37] [User Authenticator #1/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
-[14:23:37] [Server thread/INFO]: BlueBVN1716 joined the game
-[14:23:37] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:51792] logged in with entity id 55 at ([world]-214.83279735600922, 67.0, 0.47406890756089387)
-[14:23:40] [Server thread/INFO]: BlueBVN1716 issued server command: /tp Spanse BlueBVN1716
-[14:23:40] [Server thread/INFO]: [BlueBVN1716: Teleported Spanse to BlueBVN1716]
-[14:23:40] [Server thread/WARN]: Spanse moved too quickly! -85.09501592625148,-35.879466626006376,52.97622717669204
-[14:23:45] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: a
-[14:23:50] [Async Chat Thread - #1/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: set npc di
-[14:24:05] [Server thread/INFO]: Spanse issued server command: /znpcs move 10
-[14:24:25] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: roi chinh di
-[14:24:40] [Server thread/INFO]: Spanse issued server command: /spawnpoint
-[14:24:40] [Server thread/INFO]: [Spanse: Set spawn point to -215, 67, 0 [0.0] in minecraft:overworld for Spanse]
-[14:24:42] [User Authenticator #2/INFO]: UUID of player Kitty190 is 7fc81736-5a4d-413d-8eea-76216c336c72
-[14:24:42] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[14:24:42] [Server thread/INFO]: Kitty190 joined the game
-[14:24:42] [Server thread/INFO]: Kitty190[/[0:0:0:0:0:0:0:1%0]:54502] logged in with entity id 57 at ([world]-214.83279735600922, 67.0, 0.47406890756089387)
-[14:24:54] [Server thread/INFO]: Spanse issued server command: /spawn:setspawn
-[14:25:01] [Server thread/INFO]: Removed 2 item(s) from player Spanse
-[14:25:01] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:25:01] [Server thread/INFO]: Teleported Spanse to 206.500000, 10.000000, 6.500000
-[14:25:01] [Server thread/INFO]: Spanse has made the advancement [Cover Me with Diamonds]
-[14:25:03] [Server thread/INFO]: No items were found on player Kitty190
-[14:25:03] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:25:03] [Server thread/INFO]: Teleported Kitty190 to 206.500000, 10.000000, 6.500000
-[14:25:03] [Server thread/INFO]: Kitty190 has made the advancement [Cover Me with Diamonds]
-[14:25:08] [Server thread/INFO]: Spanse fell out of the world
-[14:25:09] [Server thread/INFO]: Kitty190 fell out of the world
-[14:25:12] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bnruh
-[14:25:13] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bruh
-[14:25:15] [Server thread/INFO]: Spanse issued server command: /gamemode survival
-[14:25:15] [Server thread/INFO]: [Spanse: Set own game mode to Survival Mode]
-[14:25:16] [Async Chat Thread - #1/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: phai stop a
-[14:25:19] [Server thread/INFO]: Removed 6 item(s) from player Kitty190
-[14:25:19] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:25:19] [Server thread/INFO]: Teleported Kitty190 to 206.500000, 10.000000, 6.500000
-[14:25:20] [Async Chat Thread - #1/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: ko
-[14:25:25] [Async Chat Thread - #2/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: deluxemenus chinh cai sword
-[14:25:26] [Server thread/INFO]: Kitty190 fell out of the world
-[14:25:33] [Server thread/INFO]: No items were found on player BlueBVN1716
-[14:25:33] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:25:33] [Server thread/INFO]: Teleported BlueBVN1716 to 206.500000, 10.000000, 6.500000
-[14:25:34] [Async Chat Thread - #2/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 206 64 06 -> j do
-[14:25:36] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
-[14:25:37] [Server thread/INFO]: Spanse issued server command: /gamemode creative
-[14:25:37] [Server thread/INFO]: [Spanse: Set own game mode to Creative Mode]
-[14:25:40] [Server thread/INFO]: Spanse issued server command: /gamemode spectator
-[14:25:40] [Server thread/INFO]: [Spanse: Set own game mode to Spectator Mode]
-[14:25:41] [Netty Epoll Server IO #3/WARN]: Failed to validate message acknowledgements from BlueBVN1716
-[14:25:41] [Server thread/INFO]: BlueBVN1716 lost connection: Chat message validation failure
-[14:25:41] [Server thread/INFO]: BlueBVN1716 left the game
-[14:25:44] [Server thread/INFO]: Spanse issued server command: /gamemode creative
-[14:25:44] [Server thread/INFO]: [Spanse: Set own game mode to Creative Mode]
-[14:25:44] [User Authenticator #3/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
-[14:25:45] [Server thread/INFO]: BlueBVN1716 joined the game
-[14:25:45] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:45470] logged in with entity id 58 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:25:48] [Async Chat Thread - #2/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: chinh r
-[14:25:49] [Server thread/INFO]: Spanse issued server command: /tp Kitty190 Spanse
-[14:25:49] [Server thread/INFO]: [Spanse: Teleported Kitty190 to Spanse]
-[14:26:00] [Server thread/INFO]: Spanse issued server command: /gamemode spectator
-[14:26:00] [Server thread/INFO]: [Spanse: Set own game mode to Spectator Mode]
-[14:26:00] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
-[14:26:00] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
-[14:26:02] [Server thread/INFO]: Spanse issued server command: /gamemode creative
-[14:26:02] [Server thread/INFO]: [Spanse: Set own game mode to Creative Mode]
-[14:26:04] [Server thread/INFO]: Spanse issued server command: /gamemode survival
-[14:26:04] [Server thread/INFO]: [Spanse: Set own game mode to Survival Mode]
-[14:26:06] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode creative
-[14:26:06] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Creative Mode]
-[14:26:26] [Server thread/INFO]: BlueBVN1716 issued server command: /deluxemenus
-[14:26:33] [Server thread/INFO]: BlueBVN1716 issued server command: /deluxemenus reload
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: permission for path: open_requirement.requirements.permission
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Speed1.view_requirement.requirements.kit_perm
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Speed2.view_requirement.requirements.kit_perm
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Speed is not present!
-Skipping item: filler_item
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: permission for path: open_requirement.requirements.permission
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] Has Permission requirement at path: items.Sword.view_requirement.requirements.kit_perm does not contain a permission: entry
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Gamemode is not present!
-Skipping item: filler_item
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: permission for path: open_requirement.requirements.permission
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Neth.view_requirement.requirements.kit_perm
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Nethpot is not present!
-Skipping item: filler_item
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] command: Speed specified for menu: Sword already exists for another menu!
-Skipping command: Speed in menu: Sword
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] No type set for requirement: kit_perm for path: items.Speed1.view_requirement.requirements.kit_perm
-[14:26:33] [Server thread/WARN]: [DeluxeMenus] Material for item: filler_item in menu: Sword is not present!
-Skipping item: filler_item
-[14:26:36] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
-[14:26:42] [Server thread/INFO]: No items were found on player BlueBVN1716
-[14:26:42] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:26:42] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:26:49] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (3.66❤)
-[14:26:49] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:26:49] [Netty Epoll Server IO #3/WARN]: Failed to validate message acknowledgements from BlueBVN1716
-[14:26:49] [Server thread/INFO]: BlueBVN1716 lost connection: Chat message validation failure
-[14:26:49] [Server thread/INFO]: BlueBVN1716 left the game
-[14:26:51] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 1-0
-[14:26:52] [User Authenticator #4/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
-[14:26:53] [Server thread/INFO]: BlueBVN1716 joined the game
-[14:26:53] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:35564] logged in with entity id 59 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:26:59] [Async Chat Thread - #3/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: how i
-[14:27:04] [Server thread/INFO]: Removed 7 item(s) from player Kitty190
-[14:27:04] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:27:04] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:27:05] [Server thread/INFO]: Spanse issued server command: /tp Kitty190 Spanse
-[14:27:05] [Server thread/INFO]: [Spanse: Teleported Kitty190 to Spanse]
-[14:27:10] [Server thread/INFO]: BlueBVN1716 issued server command: /sk reload haha.sk
-[14:27:15] [Async Chat Thread - #3/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: ak
-[14:27:29] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bruh
-[14:27:31] [Async Chat Thread - #3/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: bruh
-[14:27:31] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bluevn
-[14:27:34] [Server thread/INFO]: BlueBVN1716 issued server command: /sk reload haha.sk
-[14:27:40] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: hay dung mhieuu.ddns.net?
-[14:27:46] [Server thread/INFO]: BlueBVN1716 issued server command: /sk reload haha.sk
-[14:27:48] [Netty Epoll Server IO #0/WARN]: Failed to validate message acknowledgements from BlueBVN1716
-[14:27:48] [Server thread/INFO]: BlueBVN1716 lost connection: Chat message validation failure
-[14:27:48] [Server thread/INFO]: BlueBVN1716 left the game
-[14:27:51] [User Authenticator #4/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
-[14:27:52] [Server thread/INFO]: BlueBVN1716 joined the game
-[14:27:52] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:45384] logged in with entity id 60 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:27:55] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:27:55] [Server thread/INFO]: BlueBVN1716 was killed
-[14:27:55] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:28:06] [Server thread/INFO]: BlueBVN1716 issued server command: /gamerule doImmediateRespawn false
-[14:28:06] [Server thread/INFO]: [BlueBVN1716: Gamerule doImmediateRespawn is now set to: false]
-[14:28:08] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:28:08] [Server thread/INFO]: BlueBVN1716 was killed
-[14:28:08] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:28:14] [Server thread/INFO]: BlueBVN1716 issued server command: /gamerule doImmediateRespawn true
-[14:28:14] [Server thread/INFO]: [BlueBVN1716: Gamerule doImmediateRespawn is now set to: true]
-[14:28:15] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:28:15] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:28:19] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:28:19] [Server thread/INFO]: BlueBVN1716 was killed
-[14:28:19] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:28:25] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:28:25] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:28:25] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (4.49❤)
-[14:28:25] [Server thread/INFO]: Spanse was slain by Kitty190
-[14:28:29] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode adventure
-[14:28:29] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Adventure Mode]
-[14:28:29] [Server thread/INFO]: Spanse issued server command: /tp Kitty190
-[14:28:29] [Server thread/INFO]: [Spanse: Teleported Spanse to Kitty190]
-[14:28:31] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:28:31] [Server thread/INFO]: BlueBVN1716 was killed
-[14:28:31] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:28:32] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 1-1
-[14:29:03] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:29:03] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:29:10] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
-[14:29:11] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (3.87❤)
-[14:29:11] [Server thread/INFO]: Spanse was slain by Kitty190
-[14:29:13] [Server thread/INFO]: Spanse issued server command: /tp Kitty190
-[14:29:13] [Server thread/INFO]: [Spanse: Teleported Spanse to Kitty190]
-[14:29:14] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:29:14] [Server thread/INFO]: BlueBVN1716 was killed
-[14:29:14] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:29:16] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 2-1
-[14:29:18] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:29:18] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:29:18] [Server thread/WARN]: BlueBVN1716 moved too quickly! 213.579196349666,-3.0,2.8165309356927373
-[14:29:22] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:29:22] [Server thread/INFO]: BlueBVN1716 was killed
-[14:29:22] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:29:26] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode creative
-[14:29:26] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Creative Mode]
-[14:29:36] [Server thread/INFO]: BlueBVN1716 issued server command: /tp Spanse
-[14:29:36] [Server thread/INFO]: [BlueBVN1716: Teleported BlueBVN1716 to Spanse]
-[14:29:42] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (0.21❤)
-[14:29:42] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:29:44] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:29:44] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:29:45] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 2-2
-[14:30:02] [Server thread/INFO]: Spanse issued server command: /tp Kitty190 Spanse
-[14:30:02] [Server thread/INFO]: [Spanse: Teleported Kitty190 to Spanse]
-[14:30:04] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
-[14:30:34] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (9.69❤)
-[14:30:34] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:30:37] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 3-2
-[14:30:40] [Async Chat Thread - #3/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: fic qr r
-[14:30:42] [Server thread/INFO]: Spanse issued server command: /tp Kitty190 Spanse
-[14:30:42] [Server thread/INFO]: [Spanse: Teleported Kitty190 to Spanse]
-[14:30:42] [Async Chat Thread - #4/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: fix
-[14:30:42] [Async Chat Thread - #3/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: cner
-[14:30:46] [Async Chat Thread - #3/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: center
-[14:30:47] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode adventure
-[14:30:47] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Adventure Mode]
-[14:30:50] [Server thread/INFO]: No items were found on player BlueBVN1716
-[14:30:50] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:30:50] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:30:57] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode creative
-[14:30:57] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Creative Mode]
-[14:31:16] [Server thread/INFO]: BlueBVN1716 issued server command: //pos1
-[14:31:32] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (2.74❤)
-[14:31:32] [Server thread/INFO]: Spanse was slain by Kitty190
-[14:31:35] [Server thread/INFO]: Spanse issued server command: /tp Kitty190
-[14:31:35] [Server thread/INFO]: [Spanse: Teleported Spanse to Kitty190]
-[14:31:37] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 3-3
-[14:31:47] [Server thread/INFO]: BlueBVN1716 issued server command: //pos2
-[14:31:58] [Server thread/INFO]: BlueBVN1716 issued server command: /rg redefine ffa
-[14:32:03] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
-[14:32:04] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[14:32:14] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (0.74❤)
-[14:32:14] [Server thread/INFO]: Spanse was slain by Kitty190
-[14:32:17] [Server thread/INFO]: Spanse issued server command: /tp Kitty190
-[14:32:17] [Server thread/INFO]: [Spanse: Teleported Spanse to Kitty190]
-[14:32:20] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 3-3
-[14:32:23] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 3-4
-[14:32:39] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
-[14:32:39] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
-[14:32:43] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode creative
-[14:32:43] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Creative Mode]
-[14:32:55] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (4.68❤)
-[14:32:55] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:32:58] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 4-4
-[14:33:04] [Async Chat Thread - #3/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 20s
-[14:33:19] [Server thread/INFO]: BlueBVN1716 issued server command: //wand
-[14:33:27] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:33:27] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:33:46] [Server thread/INFO]: BlueBVN1716 issued server command: //pos2
-[14:33:51] [Server thread/INFO]: BlueBVN1716 issued server command: /rg define spawn
-[14:33:59] [Server thread/INFO]: BlueBVN1716 issued server command: /rg redefine spawn
-[14:34:02] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
-[14:34:04] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[14:34:05] [Async Chat Thread - #5/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 4-4
-[14:34:21] [Server thread/INFO]: BlueBVN1716 issued server command: /kits edit Sword
-[14:34:21] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:34:37] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (6.86❤)
-[14:34:37] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:34:40] [Async Chat Thread - #5/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 5-4
-[14:34:44] [Server thread/INFO]: Spanse issued server command: /tp Kitty190 Spanse
-[14:34:44] [Server thread/INFO]: [Spanse: Teleported Kitty190 to Spanse]
-[14:34:44] [Server thread/WARN]: Kitty190 moved too quickly! 90.23663749162982,-4.249187078744683,-17.760877517457367
-[14:34:46] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:34:46] [Server thread/INFO]: BlueBVN1716 was killed
-[14:34:46] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:34:52] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode survival
-[14:34:52] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Survival Mode]
-[14:35:01] [Server thread/INFO]: BlueBVN1716 issued server command: /kits edit Sword
-[14:35:08] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode creative
-[14:35:08] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Creative Mode]
-[14:35:12] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:35:12] [Server thread/INFO]: BlueBVN1716 was killed
-[14:35:12] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:35:19] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:35:19] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:35:22] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:35:22] [Server thread/INFO]: BlueBVN1716 was killed
-[14:35:22] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:35:24] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (2.44❤)
-[14:35:24] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:35:27] [Async Chat Thread - #5/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 6-4
-[14:35:29] [Server thread/INFO]: Spanse issued server command: /tp Kitty190 Spanse
-[14:35:29] [Server thread/INFO]: [Spanse: Teleported Kitty190 to Spanse]
-[14:35:59] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (7.52❤)
-[14:35:59] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:36:02] [Async Chat Thread - #5/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 7-4
-[14:36:03] [Server thread/INFO]: Spanse issued server command: /tp Kitty190 Spanse
-[14:36:03] [Server thread/INFO]: [Spanse: Teleported Kitty190 to Spanse]
-[14:36:42] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (7.02❤)
-[14:36:42] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:36:43] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:36:43] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:36:43] [Server thread/WARN]: Kitty190 moved too quickly! 212.00028833814093,-4.166109260938214,-0.7608919854424265
-[14:36:45] [Async Chat Thread - #5/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 8-4
-[14:36:47] [Server thread/INFO]: Spanse issued server command: /gamemode creative
-[14:36:47] [Server thread/INFO]: [Spanse: Set own game mode to Creative Mode]
-[14:36:59] [Server thread/INFO]: Spanse issued server command: /tp Kitty190 Spanse
-[14:36:59] [Server thread/INFO]: [Spanse: Teleported Kitty190 to Spanse]
-[14:36:59] [Server thread/WARN]: Kitty190 moved too quickly! -5.065969825318058,0.0,-10.094646970215269
-[14:37:01] [Server thread/INFO]: Spanse issued server command: /gamemode survival
-[14:37:01] [Server thread/INFO]: [Spanse: Set own game mode to Survival Mode]
-[14:37:10] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode adventure
-[14:37:10] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Adventure Mode]
-[14:37:21] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
-[14:37:21] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
-[14:37:23] [Server thread/INFO]: BlueBVN1716 issued server command: /tp Spanse
-[14:37:23] [Server thread/INFO]: [BlueBVN1716: Teleported BlueBVN1716 to Spanse]
-[14:37:23] [Server thread/WARN]: BlueBVN1716 moved too quickly! 184.96577501222473,-3.0,-28.332233892288354
-[14:37:28] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:37:28] [Server thread/INFO]: BlueBVN1716 was killed
-[14:37:28] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:37:31] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode survival
-[14:37:31] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Survival Mode]
-[14:37:37] [Server thread/INFO]: BlueBVN1716 issued server command: /gamerule keepInventory false
-[14:37:37] [Server thread/INFO]: [BlueBVN1716: Gamerule keepInventory is now set to: false]
-[14:37:38] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:37:38] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:37:41] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:37:41] [Server thread/INFO]: BlueBVN1716 was killed
-[14:37:41] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:37:43] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:37:43] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:37:52] [Server thread/INFO]: BlueBVN1716 issued server command: /rg flags
-[14:37:52] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (5.85❤)
-[14:37:52] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:37:54] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:37:54] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:37:56] [Async Chat Thread - #7/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 9-4
-[14:38:28] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (11.58❤)
-[14:38:28] [Server thread/INFO]: Spanse was slain by Kitty190
-[14:38:29] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:38:29] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:38:38] [Async Chat Thread - #7/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 9-5
-[14:38:56] [Async Chat Thread - #7/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: rejoin di
-[14:38:57] [Server thread/INFO]: Spanse lost connection: Disconnected
-[14:38:57] [Server thread/INFO]: Spanse left the game
-[14:39:00] [User Authenticator #5/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
-[14:39:00] [Server thread/INFO]: Spanse joined the game
-[14:39:00] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1%0]:50162] logged in with entity id 62 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:39:05] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
-[14:39:05] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
-[14:39:07] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode survival
-[14:39:07] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Survival Mode]
-[14:39:09] [Server thread/INFO]: No items were found on player Spanse
-[14:39:09] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:39:09] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:39:49] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.54❤)
-[14:39:49] [Server thread/INFO]: Kitty190 was slain by Spanse
-[14:39:52] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:39:52] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:39:55] [Async Chat Thread - #7/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 10-5
-[14:39:58] [Server thread/INFO]: BlueBVN1716 issued server command: /gamerule showDeathMessages false
-[14:39:58] [Server thread/INFO]: [BlueBVN1716: Gamerule showDeathMessages is now set to: false]
-[14:40:00] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:40:00] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:40:03] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:40:03] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:40:33] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (0.46❤)
-[14:40:35] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:40:35] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:40:35] [Server thread/WARN]: Kitty190 moved too quickly! 214.435708686759,-3.0,-0.7783929795789137
-[14:40:45] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
-[14:41:03] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (4.47❤)
-[14:41:05] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:41:05] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:41:25] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:41:25] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:41:28] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:41:28] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:41:32] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
-[14:41:32] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
-[14:41:45] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (3.39❤)
-[14:41:47] [Async Chat Thread - #9/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: e
-[14:41:52] [Async Chat Thread - #9/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: skib
-[14:41:54] [Async Chat Thread - #9/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: de invite
-[14:42:23] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:42:23] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:42:49] [Server thread/INFO]: Spanse lost connection: Disconnected
-[14:42:49] [Server thread/INFO]: Spanse left the game
-[14:42:52] [User Authenticator #6/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
-[14:42:52] [Server thread/INFO]: Spanse joined the game
-[14:42:52] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1%0]:42484] logged in with entity id 63 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:43:00] [Server thread/INFO]: No items were found on player Spanse
-[14:43:00] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:43:00] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:43:01] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:43:01] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:43:44] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 BlueBVN1716 (7.81❤)
-[14:43:45] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:43:45] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:43:46] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: omg
-[14:44:01] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: more 3 round
-[14:44:03] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: before i ogne
-[14:44:06] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: after;
-[14:44:07] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (13.54❤)
-[14:44:08] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:44:08] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:44:08] [Server thread/WARN]: BlueBVN1716 moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
-[14:44:11] [Async Chat Thread - #11/INFO]: [Not Secure] ᴍᴇᴍʙᴇʀ Kitty190: gone
-[14:44:14] [Server thread/INFO]: Spanse issued server command: /lp user Kitty190 parent set ht1
-[14:44:14] [luckperms-command-executor/INFO]: [LP] LOG > (Spanse) [U] (kitty190)
-[14:44:14] [luckperms-command-executor/INFO]: [LP] LOG > parent set ht1
-[14:44:14] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Kitty190's group (ht1) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[14:44:14] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Kitty190's group (ht1) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[14:44:17] [Async Chat Thread - #11/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: sure
-[14:44:36] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
-[14:44:36] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
-[14:44:39] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (9.85❤)
-[14:44:39] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:44:39] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:45:22] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (0.87❤)
-[14:45:28] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:45:28] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:46:10] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.59❤)
-[14:46:11] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:46:11] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:46:39] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (3.3❤)
-[14:46:40] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:46:40] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:47:13] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (4.12❤)
-[14:47:13] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:47:13] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:47:51] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.52❤)
-[14:47:52] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:47:52] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:48:25] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (7.71❤)
-[14:48:26] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:48:26] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:48:26] [Server thread/WARN]: Spanse moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
-[14:48:57] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.01❤)
-[14:48:57] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:48:57] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:49:36] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (2.03❤)
-[14:49:38] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:49:38] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:49:42] [Server thread/INFO]: Spanse lost connection: Disconnected
-[14:49:42] [Server thread/INFO]: Spanse left the game
-[14:49:43] [User Authenticator #7/INFO]: UUID of player GreenyFives is 8ed3c69a-a1a2-4e15-b1ad-b114e20639ab
-[14:49:43] [Server thread/INFO]: GreenyFives joined the game
-[14:49:43] [Server thread/INFO]: GreenyFives[/[0:0:0:0:0:0:0:1%0]:44736] logged in with entity id 64 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:49:45] [User Authenticator #7/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
-[14:49:45] [Server thread/INFO]: Spanse joined the game
-[14:49:45] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1%0]:60518] logged in with entity id 65 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:49:48] [Async Chat Thread - #13/INFO]: [Not Secure] HT1 Kitty190: center
-[14:49:51] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode adventure
-[14:49:51] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Adventure Mode]
-[14:49:52] [Server thread/INFO]: No items were found on player Spanse
-[14:49:52] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:49:52] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:50:04] [Server thread/INFO]: BlueBVN1716 issued server command: /spawn
-[14:50:08] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: ht1 yo ass
-[14:50:09] [Server thread/INFO]: BlueBVN1716 issued server command: /rg flags
-[14:50:13] [Server thread/INFO]: BlueBVN1716 issued server command: /rg flags -w "world" spawn
-[14:50:15] [Server thread/INFO]: GreenyFives issued server command: /k1
-[14:50:15] [Server thread/INFO]: BlueBVN1716 issued server command: /rg flag -w "world" -h 1 spawn pvp DENY
-[14:50:18] [Server thread/INFO]: GreenyFives issued server command: /spawn
-[14:50:24] [Netty Epoll Server IO #1/WARN]: Failed to validate message acknowledgements from GreenyFives
-[14:50:24] [Server thread/INFO]: GreenyFives lost connection: Chat message validation failure
-[14:50:24] [Server thread/INFO]: GreenyFives left the game
-[14:50:26] [Netty Epoll Server IO #0/WARN]: Failed to validate message acknowledgements from BlueBVN1716
-[14:50:26] [Server thread/INFO]: BlueBVN1716 lost connection: Chat message validation failure
-[14:50:26] [Server thread/INFO]: BlueBVN1716 left the game
-[14:50:27] [User Authenticator #7/INFO]: UUID of player GreenyFives is 8ed3c69a-a1a2-4e15-b1ad-b114e20639ab
-[14:50:27] [Server thread/INFO]: GreenyFives joined the game
-[14:50:27] [Server thread/INFO]: GreenyFives[/[0:0:0:0:0:0:0:1%0]:53740] logged in with entity id 66 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:50:29] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (5.71❤)
-[14:50:29] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:50:29] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:50:31] [Server thread/INFO]: GreenyFives issued server command: /spawn
-[14:50:33] [Server thread/INFO]: GreenyFives issued server command: /spawn:spawn
-[14:50:34] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[14:50:34] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: WTF
-[14:50:40] [Server thread/INFO]: No items were found on player GreenyFives
-[14:50:40] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[14:50:40] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[14:50:40] [Server thread/INFO]: GreenyFives has made the advancement [Cover Me with Diamonds]
-[14:50:41] [User Authenticator #7/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
-[14:50:41] [Server thread/INFO]: BlueBVN1716 joined the game
-[14:50:41] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:58800] logged in with entity id 67 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:50:58] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: BlueBVN1716
-[14:51:02] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (3.68❤)
-[14:51:03] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:51:03] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:51:08] [Async Chat Thread - #13/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: j
-[14:51:13] [Server thread/INFO]: No items were found on player BlueBVN1716
-[14:51:13] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:51:13] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:51:24] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (8.12❤)
-[14:51:25] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:51:25] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:51:25] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gg
-[14:51:30] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: BlueBVN1716 gimme best mobile fr
-[14:51:46] [User Authenticator #8/INFO]: Disconnecting fanvietbua (/[0:0:0:0:0:0:0:1%0]:39026): Failed to verify username!
-[14:51:46] [User Authenticator #8/ERROR]: Username 'fanvietbua' tried to join with an invalid session
-[14:51:46] [Server thread/INFO]: fanvietbua (/[0:0:0:0:0:0:0:1%0]:39026) lost connection: Failed to verify username!
-[14:51:56] [User Authenticator #8/INFO]: Disconnecting fanvietbua (/[0:0:0:0:0:0:0:1%0]:48438): Failed to verify username!
-[14:51:56] [User Authenticator #8/ERROR]: Username 'fanvietbua' tried to join with an invalid session
-[14:51:56] [Server thread/INFO]: fanvietbua (/[0:0:0:0:0:0:0:1%0]:48438) lost connection: Failed to verify username!
-[14:52:05] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (11.02❤)
-[14:52:06] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:52:06] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:52:09] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Kitty190 (0.74❤)
-[14:52:11] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: fuck u bithc
-[14:52:12] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[14:52:12] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[14:52:24] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 GreenyFives (20❤)
-[14:52:30] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:52:30] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:52:46] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (2.93❤)
-[14:52:47] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:52:47] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:52:53] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 GreenyFives (5.95❤)
-[14:52:54] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:52:54] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:52:56] [Async Chat Thread - #13/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 10s
-[14:53:05] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 GreenyFives (20❤)
-[14:53:19] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:53:19] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:53:36] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (6.67❤)
-[14:53:37] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:53:37] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:53:39] [Async Chat Thread - #13/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: 360
-[14:53:54] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (8.15❤)
-[14:53:55] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:53:55] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:54:09] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (6.65❤)
-[14:54:10] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:54:10] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:54:28] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (4.78❤)
-[14:54:29] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
-[14:54:29] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
-[14:54:33] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (9.24❤)
-[14:54:34] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:54:34] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:55:07] [Async Chat Thread - #15/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: dep qua
-[14:55:20] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (9.43❤)
-[14:55:21] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:55:21] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:55:27] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (8.11❤)
-[14:55:28] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:55:28] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:55:53] [Server thread/INFO]: Spanse issued server command: /kill Kitty190
-[14:55:53] [Server thread/INFO]: [Spanse: Killed Kitty190]
-[14:56:11] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 GreenyFives (1.77❤)
-[14:56:12] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
-[14:56:12] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
-[14:56:13] [Async Chat Thread - #17/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bruh
-[14:56:15] [Async Chat Thread - #17/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: 360
-[14:56:17] [Async Chat Thread - #17/INFO]: ᴀᴅᴍɪɴ BlueBVN1716: cc
-[14:56:42] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: okay
-[14:56:45] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: sleep issue
-[14:56:46] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (9.87❤)
-[14:56:46] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:56:46] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:56:46] [Server thread/WARN]: Spanse moved too quickly! 213.66663599097066,-3.000000099999994,0.0457337142800151
-[14:56:47] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: gank issue
-[14:56:51] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: 360 !!
-[14:56:56] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: i should go to sleep
-[14:56:58] [Async Chat Thread - #18/INFO]: [Not Secure] HT1 Kitty190: goodbye sir
-[14:57:10] [Server thread/INFO]: Kitty190 lost connection: Disconnected
-[14:57:10] [Server thread/INFO]: Kitty190 left the game
-[14:57:23] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (1.55❤)
-[14:57:24] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[14:57:24] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[14:57:25] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: XD
-[14:57:46] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (3.9❤)
-[14:57:47] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gg
-[14:57:47] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:57:47] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:57:48] [Server thread/WARN]: Spanse moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
-[14:57:53] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode spectator
-[14:57:53] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Spectator Mode]
-[14:58:25] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (2.45❤)
-[14:58:26] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[14:58:26] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[14:58:27] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: noo
-[14:58:30] [Async Chat Thread - #18/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bruhw
-[14:58:32] [Netty Epoll Server IO #1/WARN]: Failed to validate message acknowledgements from BlueBVN1716
-[14:58:32] [Server thread/INFO]: BlueBVN1716 lost connection: Chat message validation failure
-[14:58:32] [Server thread/INFO]: BlueBVN1716 left the game
-[14:58:36] [User Authenticator #9/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
-[14:58:36] [Server thread/INFO]: BlueBVN1716 joined the game
-[14:58:36] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:45874] logged in with entity id 68 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[14:58:47] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (10.77❤)
-[14:58:47] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:58:47] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:58:47] [Server thread/WARN]: Spanse moved too quickly! 214.28757644992658,-3.000000099999994,0.060991668585816616
-[14:58:51] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gib me some ranks!!
-[14:58:57] [Async Chat Thread - #18/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: bro
-[14:59:01] [Async Chat Thread - #18/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: tomorrow
-[14:59:06] [Async Chat Thread - #18/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: it takes time
-[14:59:10] [Async Chat Thread - #17/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: TO MAKE A NEW RANK
-[14:59:51] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (1.47❤)
-[14:59:51] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[14:59:51] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[14:59:52] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: NOOO
-[15:00:11] [Server thread/INFO]: BlueBVN1716 issued server command: /gamemode adventure
-[15:00:11] [Server thread/INFO]: [BlueBVN1716: Set own game mode to Adventure Mode]
-[15:00:32] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (0.99❤)
-[15:00:33] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:00:33] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:00:33] [Server thread/WARN]: Spanse moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
-[15:00:33] [Async Chat Thread - #18/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: XD
-[15:00:35] [Async Chat Thread - #17/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: spanish
-[15:01:05] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (0.04❤)
-[15:01:06] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:01:06] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:01:37] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (5.66❤)
-[15:01:37] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:01:37] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:02:06] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (2.44❤)
-[15:02:06] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:02:06] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:02:26] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (1.71❤)
-[15:02:27] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:02:27] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:02:50] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (4.42❤)
-[15:02:51] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:02:51] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:02:55] [Server thread/INFO]: BlueBVN1716 lost connection: Disconnected
-[15:02:55] [Server thread/INFO]: BlueBVN1716 left the game
-[15:03:15] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (4.9❤)
-[15:03:15] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:03:15] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:03:45] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (2.82❤)
-[15:03:46] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:03:46] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:04:13] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (1.7❤)
-[15:04:14] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:04:14] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:04:20] [Async Chat Thread - #19/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: almost r
-[15:04:28] [Async Chat Thread - #19/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: tf
-[15:04:52] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (5.78❤)
-[15:04:52] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:04:52] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:05:23] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (6.18❤)
-[15:05:24] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:05:24] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:05:24] [Async Chat Thread - #19/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: XD
-[15:05:42] [User Authenticator #10/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
-[15:05:42] [Server thread/INFO]: BlueBVN1716 joined the game
-[15:05:42] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1%0]:39676] logged in with entity id 69 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
-[15:05:55] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (5.66❤)
-[15:05:56] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:05:56] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:05:56] [Async Chat Thread - #19/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gg
-[15:06:23] [Server thread/ERROR]: Failed to save level ./world_the_end
-java.nio.file.NoSuchFileException: ./world_the_end/level16463310442594882084.dat
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
-	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
-	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
-	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[purpur-1.21.jar:1.21-2284-4e55e26]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[purpur-1.21.jar:1.21-2284-4e55e26]
-	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1408) ~[purpur-1.21.jar:1.21-2284-4e55e26]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1655) ~[purpur-1.21.jar:1.21-2284-4e55e26]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1334) ~[purpur-1.21.jar:1.21-2284-4e55e26]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.jar:1.21-2284-4e55e26]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:06:23] [DimensionDataIO - ./world_the_end/DIM1 - 0/ERROR]: Could not save data net.minecraft.world.entity.raid.Raids@1786bd46
-java.nio.file.NoSuchFileException: ./world_the_end/DIM1/data/raids_end.dat
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
-	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
-	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[purpur-1.21.jar:1.21-2284-4e55e26]
-	at net.minecraft.world.level.saveddata.SavedData.lambda$save$0(SavedData.java:48) ~[purpur-1.21.jar:1.21-2284-4e55e26]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:06:24] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (6.24❤)
-[15:06:25] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:06:25] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:06:26] [Async Chat Thread - #19/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: gg
-[15:06:54] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (8.13❤)
-[15:06:55] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:06:55] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:06:56] [Server thread/INFO]: BlueBVN1716 issued server command: /tab reload
-[15:06:56] [Server thread/INFO]: [TAB] Disabled in 1ms
-[15:06:56] [Server thread/INFO]: [TAB] Enabled in 30ms
-[15:07:25] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (5.46❤)
-[15:07:32] [Async Chat Thread - #21/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: not that shitty strat again!!
-[15:07:32] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:07:32] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:08:03] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (8.45❤)
-[15:08:06] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:08:06] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:08:41] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (1.96❤)
-[15:08:41] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:08:41] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:09:10] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (4.14❤)
-[15:09:10] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:09:10] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:09:36] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (0.72❤)
-[15:09:36] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:09:36] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
-[15:10:03] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 GreenyFives (1.1❤)
-[15:10:03] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
-[15:10:03] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
-[15:10:05] [Async Chat Thread - #23/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: nigg
-[15:10:12] [Async Chat Thread - #23/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: a
-[15:10:28] [Server thread/INFO]: ☠ GreenyFives was defeated by 🗡 Spanse (6.83❤)
-[15:10:32] [Async Chat Thread - #23/INFO]: ᴍᴇᴍʙᴇʀ GreenyFives: bro thatfucking strat
-[15:10:33] [Server thread/INFO]: Teleported GreenyFives to 0.500000, 64.000000, 0.500000
-[15:10:33] [Server thread/INFO]: [PlayerKits²] Kit Sword given to GreenyFives!
+[11:22:31] [Server thread/INFO]: [DeluxeMenus] 7 GUI menus loaded!
+[11:22:31] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[11:22:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.0-Release]
+[11:22:31] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.12.4
+[11:22:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.12.4]
+[11:22:31] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.12.4
+[11:22:31] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[11:22:31] [Server thread/INFO]: There is a new version available. (1.13.1)
+[11:22:31] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/playerkits-2
+[11:22:31] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
+[11:22:31] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
+[11:22:31] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
+[11:22:31] [Server thread/INFO]: [spark] Starting background profiler...
+[11:22:32] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:22:32] [Server thread/INFO]: Done preparing level "world" (19.660s)
+[11:22:32] [Server thread/INFO]: Starting GS4 status listener
+[11:22:32] [Server thread/INFO]: Thread Query Listener started
+[11:22:32] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[11:22:32] [Server thread/INFO]: Running delayed init tasks
+[11:22:32] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[11:22:32] [Server thread/INFO]: [Skript] Loading variables...
+[11:22:32] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:22:32] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[11:22:32] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[11:22:32] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 4 structures in 0.23 seconds
+[11:22:32] [Server thread/INFO]: [Skript] Finished loading.
+[11:22:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[11:22:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pinger [1.0.1]
+[11:22:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[11:22:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[11:22:32] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[11:22:32] [Server thread/INFO]: 4 placeholder hook(s) registered!
+[11:22:32] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.1.1, you're on: 5.0.3
+[11:22:32] [Server thread/INFO]: Done (50.269s)! For help, type "help"
+[11:22:32] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[11:22:33] [User Authenticator #0/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
+[11:22:36] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Spanse's group (t4) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[11:22:36] [Server thread/INFO]: Spanse joined the game
+[11:22:36] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1]:43442] logged in with entity id 2 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[11:22:41] [User Authenticator #0/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
+[11:22:41] [TAB Processing Thread/INFO]: [TAB] [WARN] Player BlueBVN1716's group (t3) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[11:22:41] [Server thread/INFO]: BlueBVN1716 joined the game
+[11:22:41] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1]:50962] logged in with entity id 5 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[11:22:44] [Server thread/INFO]: Removed 6 item(s) from player Spanse
+[11:22:44] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[11:22:44] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[11:22:47] [Server thread/INFO]: Removed 6 item(s) from player BlueBVN1716
+[11:22:47] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:22:47] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:23:16] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 BlueBVN1716 (1.87❤)
+[11:23:19] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[11:23:19] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[11:23:39] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (10.4❤)
+[11:23:40] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:23:40] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:23:58] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (6.19❤)
+[11:23:59] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:23:59] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:24:10] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[11:24:24] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (2.09❤)
+[11:24:25] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:24:25] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:24:55] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (8.48❤)
+[11:24:56] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:24:56] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:24:57] [Netty Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[11:25:13] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[11:25:20] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (14❤)
+[11:25:21] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:25:21] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:25:59] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (1.55❤)
+[11:26:00] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:26:00] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:26:00] [Server thread/WARN]: BlueBVN1716 moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
+[11:26:01] [Netty Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[11:26:17] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[11:26:25] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 BlueBVN1716 (2.74❤)
+[11:26:26] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[11:26:26] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[11:27:03] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (7.16❤)
+[11:27:04] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:27:04] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:27:04] [Server thread/WARN]: BlueBVN1716 moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
+[11:27:21] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[11:27:29] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (13.53❤)
+[11:27:29] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:27:29] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:27:29] [Server thread/WARN]: BlueBVN1716 moved too quickly! 214.55781642025397,-3.000000099999994,-0.028444976798656985
+[11:27:57] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (4.58❤)
+[11:27:58] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:27:58] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:27:58] [Server thread/WARN]: BlueBVN1716 moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
+[11:28:18] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (12.66❤)
+[11:28:19] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:28:19] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:28:19] [Server thread/WARN]: BlueBVN1716 moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
+[11:28:25] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[11:28:54] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (6.64❤)
+[11:28:55] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[11:28:55] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[11:28:55] [Server thread/WARN]: BlueBVN1716 moved too quickly! 214.57302332482405,-3.000000099999994,0.14849075646289428
+[11:28:58] [Async Chat Thread - #2/INFO]: [Not Secure] T4 Spanse: thoi off
+[11:29:02] [Async Chat Thread - #2/INFO]: [Not Secure] T4 Spanse: gg
+[11:29:06] [Async Chat Thread - #2/INFO]: T3 BlueBVN1716: gay
+[11:29:11] [Server thread/INFO]: Spanse lost connection: Disconnected
+[11:29:11] [Server thread/INFO]: Spanse left the game
+[11:29:28] [Server thread/INFO]: Paper Plugins: (0):
+[11:29:28] [Server thread/INFO]: Bukkit Plugins: (21):
+[11:29:28] [Server thread/INFO]:  - ChatFormatter, CleanPing, DeluxeMenus, *DRC, GrimAC, *HealOnKill, LPC, LuckPerms, NoDurability, PlaceholderAPI
+[11:29:28] [Server thread/INFO]:  PlayerKits2, ServersNPC, Skript, *Spawn, StatsSB, TAB, Vault, ViaBackwards, ViaVersion, WorldEdit
+[11:29:28] [Server thread/INFO]:  WorldGuard
+[11:29:29] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[11:30:28] [Server thread/INFO]: BlueBVN1716 lost connection: Disconnected
+[11:30:28] [Server thread/INFO]: BlueBVN1716 left the game
+[12:12:15] [User Authenticator #1/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
+[12:12:15] [TAB Processing Thread/INFO]: [TAB] [WARN] Player BlueBVN1716's group (t3) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[12:12:15] [Server thread/INFO]: BlueBVN1716 joined the game
+[12:12:15] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1]:56884] logged in with entity id 6 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[12:13:28] [Server thread/INFO]: No items were found on player BlueBVN1716
+[12:13:28] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:13:28] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:19:06] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:19:22] [Netty Server IO #0/WARN]: io.netty.handler.timeout.ReadTimeoutException

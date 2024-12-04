@@ -47,6 +47,8 @@ format:
   owner: "{owner}{displayname} {message}"
   ht1: "{ht1}{displayname} {message}"
   ht5: "{ht5}displayname} {message}"
+  t4: "{t4}{displayname} {message}"
+  t3: "{t4}{displayname} {message}"
 
 # Placeholders, it allows you to make a shorter text, you can use some prefixes, characters etc. 
 # You can use here PAPI placeholders.
@@ -54,6 +56,8 @@ placeholders:
   {displayname}: "<displayname>:"
   {name}: "<name>"
   {ht1}: "%luckperms_prefix%&7"
+  {t4}: "%luckperms_prefix%&7"
+  {t3}: "%luckperms_prefix%&7"
   {message}: "&f<message>"
   {member}: "%luckperms_prefix%"
   {discord}: "%luckperms_prefix%"

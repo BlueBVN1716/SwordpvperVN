@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "8ed3c69a-a1a2-4e15-b1ad-b114e20639ab",
+    "name": "GreenyFives",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "bd5317cd-f36b-466b-af18-a2a26f2c80b4",
     "name": "Spanse",
     "level": 4,
