@@ -295,3 +295,197 @@ Skipping item: filler_item
 [12:13:28] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
 [12:19:06] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
 [12:19:22] [Netty Server IO #0/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:21:14] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:24:26] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:25:30] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:26:34] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:28:42] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:31:37] [Server thread/INFO]: BlueBVN1716 lost connection: Disconnected
+[12:31:37] [Server thread/INFO]: BlueBVN1716 left the game
+[12:31:44] [User Authenticator #2/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
+[12:31:44] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Spanse's group (t4) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[12:31:44] [Server thread/INFO]: Spanse joined the game
+[12:31:44] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1]:45570] logged in with entity id 7 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[12:32:35] [Server thread/INFO]: Spanse issued server command: /lp user Spanse parent set owner
+[12:32:35] [luckperms-command-executor/INFO]: [LP] LOG > (Spanse) [U] (spanse)
+[12:32:35] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
+[12:32:37] [Server thread/INFO]: No items were found on player Spanse
+[12:32:37] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:32:37] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:32:44] [Async Chat Thread - #4/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: skibid
+[12:32:55] [User Authenticator #3/INFO]: UUID of player BlueBVN1716 is 03157b4e-cf87-46e4-ad69-c273fd8fd43e
+[12:32:55] [TAB Processing Thread/INFO]: [TAB] [WARN] Player BlueBVN1716's group (t3) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[12:32:55] [Server thread/INFO]: BlueBVN1716 joined the game
+[12:32:55] [Server thread/INFO]: BlueBVN1716[/[0:0:0:0:0:0:0:1]:42878] logged in with entity id 8 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[12:33:10] [User Authenticator #3/INFO]: UUID of player HoagMinhh is 5f4126e2-6131-4048-9cd5-fcf93a26574b
+[12:33:10] [Server thread/INFO]: HoagMinhh joined the game
+[12:33:10] [Server thread/INFO]: HoagMinhh[/[0:0:0:0:0:0:0:1]:37316] logged in with entity id 9 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[12:33:19] [Server thread/INFO]: No items were found on player HoagMinhh
+[12:33:19] [Server thread/INFO]: [PlayerKits²] Kit Sword given to HoagMinhh!
+[12:33:19] [Server thread/INFO]: Teleported HoagMinhh to 0.500000, 64.000000, 0.500000
+[12:33:19] [Server thread/INFO]: HoagMinhh has made the advancement [Cover Me with Diamonds]
+[12:33:21] [Server thread/INFO]: No items were found on player BlueBVN1716
+[12:33:21] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:33:21] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:33:37] [Async Chat Thread - #4/INFO]: ᴍᴇᴍʙᴇʀ HoagMinhh: SOLO
+[12:33:49] [Server thread/INFO]: Spanse issued server command: /lp user HoagMinhh parent set t4
+[12:33:49] [luckperms-command-executor/INFO]: [LP] LOG > (Spanse) [U] (hoagminhh)
+[12:33:49] [luckperms-command-executor/INFO]: [LP] LOG > parent set t4
+[12:33:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Player HoagMinhh's group (t4) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[12:33:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Player HoagMinhh's group (t4) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[12:33:59] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 HoagMinhh (14.36❤)
+[12:34:00] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:34:00] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:34:02] [Netty Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:34:02] [Async Chat Thread - #4/INFO]: T4 HoagMinhh: uay kb ngon the
+[12:34:06] [Server thread/INFO]: Spanse issued server command: /lp user BlueBVN1716 parent set owner
+[12:34:06] [luckperms-command-executor/INFO]: [LP] LOG > (Spanse) [U] (bluebvn1716)
+[12:34:06] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
+[12:35:36] [Netty Server IO #0/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:36:12] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
+[12:36:12] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
+[12:36:51] [Server thread/INFO]: Spanse issued server command: /ping
+[12:37:12] [Netty Server IO #0/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:37:27] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:37:27] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:37:37] [Server thread/INFO]: HoagMinhh lost connection: Disconnected
+[12:37:37] [Server thread/INFO]: HoagMinhh left the game
+[12:38:18] [Netty Server IO #0/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:38:50] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:39:43] [Server thread/INFO]: Spanse issued server command: /gamerule fallDamage false
+[12:39:43] [Server thread/INFO]: [Spanse: Gamerule fallDamage is now set to: false]
+[12:40:10] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:40:26] [Netty Server IO #0/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:40:28] [User Authenticator #4/INFO]: UUID of player Kitty190 is 7fc81736-5a4d-413d-8eea-76216c336c72
+[12:40:28] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Kitty190's group (ht1) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[12:40:28] [Netty Server IO #3/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[12:40:28] [Server thread/INFO]: Kitty190 joined the game
+[12:40:28] [Server thread/INFO]: Kitty190[/[0:0:0:0:0:0:0:1]:57934] logged in with entity id 10 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[12:41:17] [Server thread/INFO]: No items were found on player Kitty190
+[12:41:17] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[12:41:17] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[12:41:32] [Async Chat Thread - #6/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: 5mins
+[12:42:57] [Async Chat Thread - #8/INFO]: [Not Secure] HT1 Kitty190: touch some blue
+[12:42:57] [User Authenticator #5/INFO]: UUID of player Spanse is bd5317cd-f36b-466b-af18-a2a26f2c80b4
+[12:42:57] [Server thread/INFO]: Spanse lost connection: You logged in from another location
+[12:42:57] [Server thread/INFO]: Spanse left the game
+[12:42:57] [Server thread/INFO]: Spanse joined the game
+[12:42:57] [Server thread/INFO]: Spanse[/[0:0:0:0:0:0:0:1]:53282] logged in with entity id 11 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[12:43:06] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:43:55] [Server thread/INFO]: No items were found on player Spanse
+[12:43:55] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:43:55] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:44:03] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Kitty190 (5.7❤)
+[12:44:04] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:44:04] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:44:26] [Netty Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:44:39] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (3.37❤)
+[12:44:39] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:44:39] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:45:04] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (6.66❤)
+[12:45:05] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:45:05] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:45:09] [Async Chat Thread - #10/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: muot nhu sunslik
+[12:45:12] [Async Chat Thread - #10/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: silk
+[12:45:20] [Async Chat Thread - #10/INFO]: [Not Secure] HT1 Kitty190: TROI OI
+[12:45:21] [Async Chat Thread - #10/INFO]: [Not Secure] HT1 Kitty190: SPANCE
+[12:45:30] [Async Chat Thread - #10/INFO]: [Not Secure] HT1 Kitty190: EM DI THAM GIA EVENT SWORD 1V1 Nha
+[12:45:33] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (8.17❤)
+[12:45:34] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:45:34] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:45:35] [Async Chat Thread - #10/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: ok
+[12:45:39] [Async Chat Thread - #11/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: good luck
+[12:45:46] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:45:50] [Async Chat Thread - #11/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: o dau
+[12:45:55] [Async Chat Thread - #11/INFO]: [Not Secure] HT1 Kitty190: tu tu
+[12:45:59] [Async Chat Thread - #11/INFO]: [Not Secure] HT1 Kitty190: de em gui ip
+[12:46:01] [Async Chat Thread - #11/INFO]: [Not Secure] HT1 Kitty190: co gi vo choi
+[12:46:09] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 BlueBVN1716 (5.61❤)
+[12:46:09] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:46:09] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:46:09] [Server thread/WARN]: Spanse moved too quickly! 214.29183840717434,-3.0,0.8221151737971018
+[12:46:30] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Kitty190 (7.55❤)
+[12:46:31] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:46:31] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:46:39] [Async Chat Thread - #11/INFO]: [Not Secure] HT1 Kitty190: whitelist event a oi
+[12:46:50] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:47:00] [Async Chat Thread - #11/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: ok
+[12:47:06] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:47:06] [Async Chat Thread - #11/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: anh ko chs dau
+[12:47:33] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 BlueBVN1716 (7.37❤)
+[12:47:34] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:47:34] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:47:36] [Async Chat Thread - #11/INFO]: [Not Secure] HT1 Kitty190: warm up ti
+[12:47:52] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (15.54❤)
+[12:47:53] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:47:53] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:48:42] [Netty Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:48:46] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (5.35❤)
+[12:48:47] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:48:47] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:49:09] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (5.33❤)
+[12:49:10] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:49:10] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:49:37] [Server thread/INFO]: ☠ BlueBVN1716 was defeated by 🗡 Spanse (3.18❤)
+[12:49:38] [Server thread/INFO]: Teleported BlueBVN1716 to 0.500000, 64.000000, 0.500000
+[12:49:38] [Server thread/INFO]: [PlayerKits²] Kit Sword given to BlueBVN1716!
+[12:50:08] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (3.18❤)
+[12:50:08] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[12:50:08] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[12:50:38] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (4.34❤)
+[12:50:39] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:50:39] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:50:40] [Async Chat Thread - #12/INFO]: [Not Secure] ᴏᴡɴᴇʀ Spanse: wtf
+[12:51:08] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (8.77❤)
+[12:51:09] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[12:51:09] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[12:51:45] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 BlueBVN1716 (6.72❤)
+[12:51:46] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:51:46] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:51:46] [Server thread/WARN]: Spanse moved too quickly! 214.6553527798164,-3.000000099999994,-0.03796649981173905
+[12:52:32] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.27❤)
+[12:52:33] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[12:52:33] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[12:52:33] [Server thread/WARN]: Kitty190 moved too quickly! 214.56021685012843,-3.0,-0.11944517701573032
+[12:52:42] [Netty Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[12:52:51] [Server thread/INFO]: BlueBVN1716 issued server command: /kil
+[12:52:53] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
+[12:52:53] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
+[12:52:53] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (6.57❤)
+[12:52:54] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:52:54] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:53:00] [Server thread/INFO]: BlueBVN1716 issued server command: /kill
+[12:53:00] [Server thread/INFO]: [BlueBVN1716: Killed BlueBVN1716]
+[12:53:20] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (1.03❤)
+[12:53:21] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[12:53:21] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[12:53:50] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (2.78❤)
+[12:53:50] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[12:53:50] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[12:53:50] [Server thread/WARN]: Kitty190 moved too quickly! 214.38252992371454,-3.0,0.1374679508675582
+[12:54:13] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (4.85❤)
+[12:54:14] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[12:54:14] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[12:54:36] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (11.98❤)
+[12:54:36] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:54:36] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:55:02] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (11.24❤)
+[12:55:03] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:55:03] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:55:28] [Server thread/INFO]: ☠ Kitty190 was defeated by 🗡 Spanse (9.7❤)
+[12:55:29] [Server thread/INFO]: Teleported Kitty190 to 0.500000, 64.000000, 0.500000
+[12:55:29] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Kitty190!
+[12:55:29] [Server thread/WARN]: Kitty190 moved too quickly! 214.6553527798164,-3.0,-0.03796649981173905
+[12:55:55] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (3.86❤)
+[12:55:56] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:55:56] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:56:18] [Server thread/INFO]: ☠ Spanse was defeated by 🗡 Kitty190 (7.51❤)
+[12:56:18] [Server thread/INFO]: Teleported Spanse to 0.500000, 64.000000, 0.500000
+[12:56:18] [Server thread/INFO]: [PlayerKits²] Kit Sword given to Spanse!
+[12:56:35] [User Authenticator #6/INFO]: UUID of player HoagMinhh is 5f4126e2-6131-4048-9cd5-fcf93a26574b
+[12:56:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Player HoagMinhh's group (t4) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[12:56:35] [Server thread/INFO]: HoagMinhh joined the game
+[12:56:35] [Server thread/INFO]: HoagMinhh[/[0:0:0:0:0:0:0:1]:33176] logged in with entity id 13 at ([world]-214.1553527798164, 67.0, 0.537966499811739)
+[12:56:42] [Server thread/INFO]: No items were found on player HoagMinhh
+[12:56:42] [Server thread/INFO]: [PlayerKits²] Kit Sword given to HoagMinhh!
+[12:56:42] [Server thread/INFO]: Teleported HoagMinhh to 0.500000, 64.000000, 0.500000
